@@ -1,6 +1,6 @@
 ---
-shortTitle: Infinity Bots  Docs
-title: Inifnity Bots Documentation
+shortTitle: Infinity Bots Docs
+title: Infinity Bots Documentation
 isRoot: true
 noBreadcrumb: true
 overrideNav: Infinity Bots Docs
