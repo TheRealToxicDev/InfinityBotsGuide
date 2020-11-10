@@ -70,7 +70,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: "og:image",
-          content: "https://cdn.discordapp.com/avatars/668542916414668832/a5f2756aeb340d445086fc16cdd4f52a.png?size=2048?size=1024"
+          content: "https://images-ext-1.discordapp.net/external/EZYpGUWYOqjWNbjLprFnQOVmB7zOzyzvcxb2sYo74G4/%3Fwidth%3D896%26height%3D896/https/images-ext-1.discordapp.net/external/ZAjvH-R269U8JwvGY-Nyb_frzVId_j-t7YuY_OuZvds/%253Fsize%253D1024/https/cdn.discordapp.com/avatars/758643392535199764/29266f4d2efe846207a1b07eb198c32b.png"
         },
         {
           property: `og:description`,
@@ -125,17 +125,17 @@ function SEO({ description, lang, meta, title }) {
           rel: "icon",
           type: "image/png",
           sizes: "32x32",
-          href: "https://cdn.discordapp.com/avatars/668542916414668832/a5f2756aeb340d445086fc16cdd4f52a.png?size=2048?size=1024"
+          href: "https://images-ext-1.discordapp.net/external/EZYpGUWYOqjWNbjLprFnQOVmB7zOzyzvcxb2sYo74G4/%3Fwidth%3D896%26height%3D896/https/images-ext-1.discordapp.net/external/ZAjvH-R269U8JwvGY-Nyb_frzVId_j-t7YuY_OuZvds/%253Fsize%253D1024/https/cdn.discordapp.com/avatars/758643392535199764/29266f4d2efe846207a1b07eb198c32b.png"
         },
         {
           rel: "icon",
           type: "image/png",
           sizes: "16x16",
-          href: "https://cdn.discordapp.com/avatars/668542916414668832/a5f2756aeb340d445086fc16cdd4f52a.png?size=2048?size=1024"
+          href: "https://images-ext-1.discordapp.net/external/EZYpGUWYOqjWNbjLprFnQOVmB7zOzyzvcxb2sYo74G4/%3Fwidth%3D896%26height%3D896/https/images-ext-1.discordapp.net/external/ZAjvH-R269U8JwvGY-Nyb_frzVId_j-t7YuY_OuZvds/%253Fsize%253D1024/https/cdn.discordapp.com/avatars/758643392535199764/29266f4d2efe846207a1b07eb198c32b.png"
         },
         {
           rel: "shortcut icon",
-          href: "https://cdn.discordapp.com/avatars/668542916414668832/a5f2756aeb340d445086fc16cdd4f52a.png?size=2048?size=1024"
+          href: "https://images-ext-1.discordapp.net/external/EZYpGUWYOqjWNbjLprFnQOVmB7zOzyzvcxb2sYo74G4/%3Fwidth%3D896%26height%3D896/https/images-ext-1.discordapp.net/external/ZAjvH-R269U8JwvGY-Nyb_frzVId_j-t7YuY_OuZvds/%253Fsize%253D1024/https/cdn.discordapp.com/avatars/758643392535199764/29266f4d2efe846207a1b07eb198c32b.png"
         }
       ]}
     />
