@@ -1,8 +1,9 @@
 {
-  "name": "docs.ninjabot.site",
+  "name": "guide.infinitybotlist.com",
   "description": "",
   "version": "1.0.0",
-  "author": "ToxicDev",
+  "author": "Infintiy Bot List",
+  "creator": "Toxic Dev
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/free-brands-svg-icons": "^5.9.0",
@@ -75,7 +76,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/TheRealToxicDev/NinjaBotDocs"
+    "url": "https://github.com/TheRealToxicDev/Infinity-Guide"
   },
   "bugs": {
     "url": ""
