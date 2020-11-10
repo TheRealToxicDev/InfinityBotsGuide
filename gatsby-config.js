@@ -1,5 +1,5 @@
 
-const themeColor = #8A6AFD";
+const themeColor = "#8A6AFD";
 const bgColor = "#16151D";
 
 require("dotenv").config({
@@ -16,7 +16,7 @@ module.exports = {
     msTileColor: "#8A6AFD",
     github: {
       owner: "TheRealToxicDev",
-      name: "Infinity-Guide",
+      name: "InfinityBotsGuide",
       docsRoot: "guide/",
       branch: "main"
     },
