@@ -4,14 +4,14 @@ links:
   - href: "/changelog/"
     text: Changelog
   - href: "/internal/"
-    text: Internal Docs
-  - href: "https://paradisebots.net"
+    text: Implementation Docs
+  - href: "https://ninjabot.site/"
     newTab: false
     text: Main App
 
 rightLinks:
-  - href: "https://paradisebots.net/join"
+  - href: "ninjabot.site/help"
     icon: discord
     class: d-none d-sm-block
-  - href: "https://github.com/ParadiseBotList"
+  - href: "https://github.com/TheRealToxicDev/Ninja-Bot-Source"
     icon: github

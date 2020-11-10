@@ -1,11 +1,11 @@
 {
-  "name": "guide.infinitybotlist.com",
-  "short_name": "Infinity Bots Guide",
-  "description": "Search your favourite bot for an exciting start to your server.",
-  "homepage_url": "guide.infinitybotlist.com",
+  "name": "docs.ninjabot.site",
+  "short_name": "Ninja Bot Docs",
+  "description": "All-in-one Moderation Bot with Extras.",
+  "homepage_url": "https://docs.ninjabot.site",
   "start_url": "/",
-  "background_color": "#16151D",
-  "theme_color": "#8A6AFD",
+  "background_color": "#496D8F",
+  "theme_color": "#6496C4",
   "display": "standalone",
   "icons": [
     {

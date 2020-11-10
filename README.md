@@ -1,1 +1,1 @@
-# Infinity Bots Documentation
+# Ninja Bot Docs

@@ -77,7 +77,6 @@ Route.Restful.displayName = "Route.Restful";
 Route.Gateway = function({
   eventName,
   requiresElevation,
-  requiresAuthorization,
   version,
   payload,
   sentFrom,
@@ -113,15 +112,7 @@ Route.Gateway = function({
               </span>
             </div>
           )}
-         {requiresAuthorization && (
-            <div className="route--gateway-authorization">
-              <span className="route--auth">
-                <Icon name="lock" className="route--auth-icon" />
-                Requires authorization
-              </span>
-            </div>
-          )}
-        <h5 className="route--label">Payload Schema</h5>
+          <h5 className="route--label">Payload Schema</h5>
         </div>
         <div className="route--gateway-row row__table">
           <div className="table-responsive-lg table-outer">
@@ -153,19 +144,14 @@ Route.Gateway = function({
 Route.Gateway.propTypes = {
   eventName: PropTypes.string.isRequired,
   requiresElevation: PropTypes.bool,
-  requiresAuthorization: PropTypes.bool,
   version: PropTypes.string,
   payload: PropTypes.object,
-  sentFrom: PropTypes.oneOf(["client", "server", "verified_bot"]).isRequired,
+  sentFrom: PropTypes.oneOf(["client", "server"]).isRequired,
   room: PropTypes.string
 };
 
 Route.Gateway.defaultProps = {
   requiresElevation: false
-};
-
-Route.Gateway.defaultProps = {
-  requiresAuthorization: false
 };
 
 Route.Gateway.displayName = "Route.Gateway";

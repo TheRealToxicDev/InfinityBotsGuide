@@ -16,7 +16,6 @@ $black: #000 !default;
 // Theme colors
 $porcelain: #f6f8f9 !default;
 $linh-blue: #6496c4 !default;
-$paradise-purple: #748CDA !default;
 $olivine: #cba15b !default;
 $tundora: #453e3e !default;
 $mine-shaft: #282c34 !default;
@@ -39,8 +38,7 @@ $cyan: #00bcd4 !default;
 
 // Custom color scheme
 $theme-colors: (
-    //primary: $linh-blue,
-    primary: $paradise-purple,
+    primary: $linh-blue,
     secondary: $olivine,
     tertiary: $tundora,
     success: $aqua-forest,

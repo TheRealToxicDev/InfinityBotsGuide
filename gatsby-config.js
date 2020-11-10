@@ -1,6 +1,5 @@
-
-const themeColor = "#8A6AFD";
-const bgColor = "#16151D";
+const themeColor = "#6496c4";
+const bgColor = "#496D8F";
 
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`
@@ -8,21 +7,21 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Infinity Bot List Guide`,
-    description: `Official Documentation for Infinity Bot List`,
-    author: `TheRealToxicDev`,
-    siteUrl: `https://guide.infinitybotlist.com`,
+    title: `Ninja Bot Docs`,
+    description: `All-in-one Discord Moderation Bot.`,
+    author: `ToxicDev`,
+    siteUrl: `https://info.ninjabot.site`,
     themeColor,
-    msTileColor: "#8A6AFD",
+    msTileColor: "#2b5797",
     github: {
       owner: "TheRealToxicDev",
-      name: "InfinityBotsGuide",
-      docsRoot: "guide/",
-      branch: "main"
+      name: "NinjaBotDocs",
+      docsRoot: "docs/",
+      branch: "master"
     },
     api: {
-      restVersion: "Infinity RESTful API v1",
-      gatewayVersion: "Infinity Gateway API v1"
+      restVersion: "v1 RESTful API",
+      gatewayVersion: "v1 Gateway API"
     }
   },
   pathPrefix: "/",
@@ -30,8 +29,8 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        path: `${__dirname}/guide/`,
-        name: "guide"
+        path: `${__dirname}/docs/`,
+        name: "docs"
       }
     },
     {
@@ -77,7 +76,7 @@ module.exports = {
           {
             resolve: "gatsby-remark-embed-snippet",
             options: {
-              directory: `${__dirname}/guide/`
+              directory: `${__dirname}/docs/`
             }
           },
           {
