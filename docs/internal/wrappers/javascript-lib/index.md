@@ -3,14 +3,67 @@ shortTitle: JavaScript
 title: JavaScript Library
 ---
 
-### Maintainer Dexter#1337
+This is our official library used for interacting with the Paradise API.
 
-## Post Method
-Post bot stats to out bot list api
+> Maintainer: Dexter#1337
 
-You can post once every 5 minutes (Rate Limit)
+## Installation
+`npm i infinity-api@latest`
+
+or
+
+`npm i infinity-api@1.0.6`
+
+or
+
+`npm i infinity-api --save`
 
 ---
+
+## Hard Coded Install
+Append the Line below to your package.json
+```
+    "infinity-api": "^1.0.6",
+```
+
+• Save and profit
+
+---
+
+## Ratelimits
+You can POST Server and Shard Count stats once every 5 minutes
+
+###### Rate Limit Structure
+| Route	| Request | Requests Allowed Per 5 Minutes |
+|--------------|----------|--------------|
+/api/bots/:botid | POST | 1 | 
+
+---
+
+---
+
+## Post Method
+
+<Route method="POST" path="/api/bots/:botid" auth /> 
+
+###### Responses
+Status | Code | Description
+|---------- |----------|----------|
+Success | 200 | Your stats have been posted |
+Not Found | 404 | Couldn't find bot |
+Rate Limit | 429 | You're being ratelimited one request per 5 mins |
+Internal Server Error | 500 | An error occurred, Contact Dexter |
+Error | 400 | Something went wrong here. | 
+
+
+###### Constructor
+```
+IBL(client, token, true)
+```
+
+---
+
+###### POST Example (discord.js v12)
 ```js
 const { Client } = require("discord.js") //import client from discord api @12.3.1
 const client = new Client();
@@ -38,7 +91,31 @@ client.on("message", message => { // message listener
 client.login("token")
 ```
 
+---
+
 ## Get method
+
+<Route method="POST" path="/api/bots/:botid/info" /> 
+
+---
+
+###### Response
+Status | Code | Description
+|---------- |----------|----------|
+Success | 200 | Your stats have been posted |
+Not Found | 404 | Couldn't find bot |
+Rate Limit | 429 | You're being ratelimited one request per 5 mins |
+Internal Server Error | 500 | An error occurred, Contact Dexter |
+Error | 400 | Something went wrong here. | 
+
+---
+
+###### Constructor
+```
+IBL()
+```
+
+###### GET Example (discord.js v12) 
 ```js
 const { Client } = require("discord.js") //import client from discord api @12.3.1
 const client = new Client();
