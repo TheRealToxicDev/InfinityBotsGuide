@@ -1,17 +1,17 @@
 links:
   - href: "/"
-    text: Docs
+    text: Home
   - href: "/changelog/"
     text: Changelog
   - href: "/internal/"
-    text: Implementation Docs
-  - href: "https://ninjabot.site/"
+    text: Docs
+  - href: "https://infinitybotlist.com/"
     newTab: false
-    text: Main App
+    text: Website
 
 rightLinks:
-  - href: "ninjabot.site/help"
+  - href: "infinitybotlist.com/discord"
     icon: discord
     class: d-none d-sm-block
-  - href: "https://github.com/TheRealToxicDev/Ninja-Bot-Source"
+  - href: "https://github.com/TheRealToxicDev/InfinityBotsGuide"
     icon: github
