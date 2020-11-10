@@ -1,5 +1,5 @@
 ---
-shortTitle: Guide
+shortTitle: User Guide
 title: Infinity Bots Docs
 noBreadcrumb: true 
 isRoot: true
