@@ -1,0 +1,52 @@
+@import "../../scss/colors";
+@import "../../scss/media";
+@import "../../scss/theme";
+
+.footer {
+    @include dark-bg($dark-050);
+    @include light-bg($dark-400);
+
+    @include dark {
+        box-shadow: $drop-shadow-inner-top;
+    }
+
+    color: $-light;
+    padding: 3.5rem 0;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+
+    .footer--inner {
+        max-width: 1100px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+
+        a {
+            @include dark-fg(rgba($-light, 0.5));
+            @include light-fg(rgba($-light, 0.7));
+            @include transitions("color, border-bottom");
+
+            border-bottom: 1px solid rgba($-light, 0.3);
+
+            &:hover {
+                color: $-light;
+                border-bottom: 1px solid $_light;
+            }
+        }
+
+        &:not(:last-child)::after {
+            color: rgba($-light, 0.6);
+            content: "•";
+            padding: 0.75rem;
+        }
+    }
+}

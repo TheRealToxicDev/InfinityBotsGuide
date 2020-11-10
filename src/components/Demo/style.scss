@@ -1,0 +1,109 @@
+@import "../../scss/theme";
+@import "../../scss/colors";
+@import "../../scss/util";
+
+$content-padding: 1.5rem;
+$label-offset-top: 0.5rem;
+$label-offset-bottom: 2rem;
+
+.demo {
+    box-shadow: $drop-shadow;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+
+    &--inner:nth-child(1) {
+        @extend %code-bg;
+        @include dark-border(transparent);
+        @include light-border(rgba($-dark, 0.3));
+
+        border-bottom: none !important;
+        position: relative;
+        border-top-right-radius: 0.5rem;
+        border-top-left-radius: 0.5rem;
+        padding-bottom: $label-offset-top;
+
+        div.gatsby-highlight.gatsby-highlight.gatsby-highlight {
+            border-bottom-right-radius: 0 !important;
+            border-bottom-left-radius: 0 !important;
+            box-shadow: none !important;
+            display: block;
+            position: relative;
+            overflow-y: visible !important;
+            margin: 0 !important;
+
+            pre {
+                @include light {
+                    @include scrollbar(blend($light-main-bg, $-dark, 0.3), $scrollbar-width);
+                }
+
+                @include dark {
+                    @include scrollbar(blend($dark-main-bg, $-light, 0.3), $scrollbar-width);
+                }
+            }
+        }
+
+        $height: 1.5rem;
+        $width: 90px;
+        $offset: 32px;
+        &:before {
+            position: absolute;
+            bottom: -$height / 2;
+            z-index: 2;
+            left: $offset;
+            height: $height;
+            width: $width;
+            content: " ";
+            border-radius: 8rem;
+
+            @include light {
+                border: 1px solid rgba($-dark, 0.3);
+                background-color: $light-500;
+            }
+
+            @include dark {
+                box-shadow: $drop-shadow;
+                background-color: lighten($dark-500, 10%);
+            }
+        }
+
+        &:after {
+            @include light-fade-fg;
+            @include dark-fade-fg;
+
+            $text-offset-x: 16px;
+            $text-offset-y: 0.05rem;
+            position: absolute;
+            bottom: -$height / 2 - $text-offset-y;
+            z-index: 2;
+            left: $offset + $text-offset-x;
+            height: $height;
+            width: $width;
+            content: "Result";
+            font-weight: bold;
+            letter-spacing: 1px;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+        }
+    }
+
+    &--inner:nth-child(2) {
+        @include dark-bg($dark-500);
+        @include light-bg($light-450);
+        border: 1px solid rgba($-dark, 0.3);
+        border-top: 1px solid rgba($-dark, 0.1);
+        padding: $content-padding;
+        padding-top: $label-offset-bottom;
+        border-bottom-right-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+
+        & > * {
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+        }
+
+        .gatsby-highlight,
+        p:last-child {
+            margin-bottom: 0 !important;
+        }
+    }
+}

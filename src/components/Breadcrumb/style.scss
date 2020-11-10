@@ -1,0 +1,15 @@
+@import "../../scss/colors";
+
+.docs-breadcrumb {
+    margin-bottom: 1.2rem;
+
+    &--icon {
+        @include dark-fade-fg;
+        @include light-fade-fg;
+
+        font-size: 40%;
+        margin-left: 0.6rem;
+        margin-right: 0.6rem;
+        vertical-align: 3px;
+    }
+}
