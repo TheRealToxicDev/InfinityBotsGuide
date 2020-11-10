@@ -1,1 +1,1 @@
-# Infinity-Guide
+# Infinity Bots Documentation
