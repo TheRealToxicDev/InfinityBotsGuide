@@ -1,5 +1,7 @@
+---
 shortTitle: Vote
 title: Voting
+---
 
 Users can currently vote every 12 hours for each bot.
 
