@@ -4,7 +4,7 @@
 
 # Redirect default Netlify subdomain to primary domain
 [[redirects]]
-  from = "https://confident-panini-145ce5.netlify.com/*"
+  from = "https://trusting-leavitt-f25c74.netlify.com/*"
   to = "https://guide.infinitybotlist.com/:splat"
   status = 301
   force = true
