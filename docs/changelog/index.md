@@ -1,6 +1,6 @@
 ---
 shortTitle: Changelog
-title: Patch Notes
+title: Change Log
 noTOC: true
 ---
 
