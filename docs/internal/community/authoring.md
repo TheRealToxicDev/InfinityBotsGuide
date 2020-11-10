@@ -2,7 +2,7 @@
 title: Authoring
 ---
 
-docs.ninjabot.site is made possible through contributors made by project maintainers and community members. Each page corresponds to a Markdown file and can be edited via GitHub to then appear on the public site once the build completes.
+guide.infinitybotlist.com is made possible through contributors made by project maintainers and community members. Each page corresponds to a Markdown file and can be edited via GitHub to then appear on the public site once the build completes.
 
 This site contains both public-facing usage documentation and internal implementation documentation intended for contributors. As such, the pages are divided into two navigation trees: those under `/docs/internal/` and the remainder under the docs root (`/docs/`). Each appears separately on the side nav to the left.
 
