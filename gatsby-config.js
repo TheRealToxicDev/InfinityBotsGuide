@@ -1,6 +1,6 @@
 
-const themeColor = "#748CDA";
-const bgColor = "#496D8F";
+const themeColor = #8A6AFD";
+const bgColor = "#16151D";
 
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`
@@ -13,12 +13,12 @@ module.exports = {
     author: `ParadiseBotList`,
     siteUrl: `https://guide.infinitybotlist.com`,
     themeColor,
-    msTileColor: "#748CDA",
+    msTileColor: "#8A6AFD",
     github: {
-      owner: "ParadiseBotList",
-      name: "docs.paradisebots.net",
-      docsRoot: "docs/",
-      branch: "ParadiseDocs-v2.00"
+      owner: "TheRealToxicDev",
+      name: "Infinity-Guide",
+      docsRoot: "guide/",
+      branch: "main"
     },
     api: {
       restVersion: "Infinity RESTful API v1",
@@ -77,7 +77,7 @@ module.exports = {
           {
             resolve: "gatsby-remark-embed-snippet",
             options: {
-              directory: `${__dirname}/docs/`
+              directory: `${__dirname}/guide/`
             }
           },
           {
