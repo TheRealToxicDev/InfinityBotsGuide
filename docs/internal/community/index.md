@@ -1,8 +1,7 @@
 ---
-title: Community
+title: Contributor Documentation
 noTOC: true
 ---
-
-The Ninja Bot open source project encourages collaboration and has all of its source code on [GitHub](https://github.com/TheRealToxicDev/Ninja-Bot-Source).
+We encourage collaboration on our documentation all of the source code can be found on our [GitHub](https://github.com/InfinityBots).
 
 <Overview />
