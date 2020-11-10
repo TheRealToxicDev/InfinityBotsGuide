@@ -105,7 +105,7 @@ const Brand = ({ className, ...rest }) => {
       href="/"
       {...rest}
     >
-     <InfinityLogo />
+     <InfinityLogo className="brand--icon"/>
     </Link>
   );
 };
