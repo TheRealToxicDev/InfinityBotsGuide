@@ -1,0 +1,10 @@
+[build]
+  command = "gatsby build"
+  publish = "public/"
+
+# Redirect default Netlify subdomain to primary domain
+[[redirects]]
+  from = "https://trusting-leavitt-f25c74.netlify.app/*"
+  to = "https://guide.infinitybotlist.com/:splat"
+  status = 301
+  force = true
