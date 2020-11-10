@@ -2,8 +2,12 @@
 shortTitle: Infinity Bots Docs
 title: Infinity Bots Documentation
 isRoot: true
-noBreadcrumb: true
+noTOC: true
 overrideNav: Infinity Bots Docs
+---
+
+<Overview />
+
 ---
 
 # Introduction
