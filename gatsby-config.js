@@ -10,7 +10,7 @@ module.exports = {
   siteMetadata: {
     title: `Infinity Bot List Guide`,
     description: `Official Documentation for Infinity Bot List`,
-    author: `ParadiseBotList`,
+    author: `TheRealToxicDev`,
     siteUrl: `https://guide.infinitybotlist.com`,
     themeColor,
     msTileColor: "#8A6AFD",
