@@ -1,6 +1,6 @@
 ---
 shortTitle: Guide
-title: Infinity Bot List Docs
+title: Infinity Bots Docs
 noBreadcrumb: true 
 isRoot: true
 ---
