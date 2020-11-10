@@ -1,0 +1,17 @@
+links:
+  - href: "/"
+    text: Docs
+  - href: "/changelog/"
+    text: Changelog
+  - href: "/internal/"
+    text: Internal Docs
+  - href: "https://paradisebots.net"
+    newTab: false
+    text: Main App
+
+rightLinks:
+  - href: "https://paradisebots.net/join"
+    icon: discord
+    class: d-none d-sm-block
+  - href: "https://github.com/ParadiseBotList"
+    icon: github

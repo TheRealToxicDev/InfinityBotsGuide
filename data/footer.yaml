@@ -1,0 +1,9 @@
+links:
+  - href: https://paradisebots.statuspal.io/
+    text: Status
+  - href: /
+    text: Info
+  - href: /internal/
+    text: Docs
+  - href: http://www.twitter.com/ParadiseBotList
+    text: Twitter
