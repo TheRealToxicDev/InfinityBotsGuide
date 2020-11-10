@@ -69,7 +69,7 @@ exports.sourceNodes = ({
   const fileNodes = getNodesByType(`File`);
   const docNodes = fileNodes.filter(
     ({ sourceInstanceName, extension }) =>
-      sourceInstanceName === "docs" && extension === "md"
+      sourceInstanceName === "guide" && extension === "md"
   );
   return Promise.all(docNodes.map(node => loadNodeContent(node))).then(
     nodeContent => {
