@@ -1,0 +1,6 @@
+---
+title: Backend Organization
+shortTitle: Backend
+---
+
+The [Ninja Bot Backend](https://github.com/TheRealToxicDev/Ninja-Bot-Soure) is built with microservices at its root, allowing for rapid and flexible horizontal scalability. When it comes to the Discord API, the bot takes advantage of Discord's [sharding functionality](https://discordapp.com/developers/docs/topics/gateway#sharding), which provides determinate distribution of guilds across each bot instance.

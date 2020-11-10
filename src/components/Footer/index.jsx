@@ -20,8 +20,7 @@ function Footer() {
 
   return (
     <div className="footer">
-    <ul className="footer--inner">
-      <p>Made with ♥️ by <a href="https://twitter.com/TheRealToxicDev">Toxic Dev</a></p>
+      <ul className="footer--inner">
         {links.map(({ href, ...rest }) => (
           <li key={href}>
             <Link href={href} {...rest} />

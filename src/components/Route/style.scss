@@ -144,19 +144,6 @@
                 margin-bottom: 1rem;
             }
 
-        #{$this}--gateway-authorizaton {
-            @include respond-above(md) {
-                position: absolute;
-                top: $padding;
-                right: $padding;
-            }
-
-            @include respond-below(md) {
-                position: relative;
-                margin-bottom: 1rem;
-            }
-
-
             #{$this}--auth {
                 @include dark-fg(rgba($-primary, 0.9), 10%);
                 @include light-fg(rgba($-primary, 0.9));
@@ -173,29 +160,11 @@
                 position: relative;
                 top: -2px;
                 margin-right: 0.8rem;
-               }
             }
         }
     }
 
     &__client {
-        #{$this}--gateway-wrapper {
-            border-left-color: $aqua-forest;
-        }
-
-        #{$this}--sent-from {
-            span {
-                color: $aqua-forest;
-            }
-
-            &::before,
-            &::after {
-                background-color: $aqua-forest;
-            }
-        }
-    }
-
-&__verified_bot {
         #{$this}--gateway-wrapper {
             border-left-color: $aqua-forest;
         }
@@ -299,7 +268,7 @@
                 margin: 0 !important;
                 border: none !important;
                 box-shadow: none !important;
-             }
-         }
-     }
-  }
+            }
+        }
+    }
+}

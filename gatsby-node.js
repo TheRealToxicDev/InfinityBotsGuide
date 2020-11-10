@@ -1,6 +1,6 @@
 const path = require("path");
 const linkSchema = require("./src/components/Link/schema");
-const DocsPageTemplate = path.resolve("./src/templates/Guide/index.jsx");
+const DocsPageTemplate = path.resolve("./src/templates/Docs/index.jsx");
 const {
   trimMarkdownPath,
   splitPath,
@@ -69,7 +69,7 @@ exports.sourceNodes = ({
   const fileNodes = getNodesByType(`File`);
   const docNodes = fileNodes.filter(
     ({ sourceInstanceName, extension }) =>
-      sourceInstanceName === "guide" && extension === "md"
+      sourceInstanceName === "docs" && extension === "md"
   );
   return Promise.all(docNodes.map(node => loadNodeContent(node))).then(
     nodeContent => {
@@ -159,7 +159,7 @@ exports.createPages = ({ graphql, actions, reporter }) => {
         allFile(
           limit: $limit
           filter: {
-            sourceInstanceName: { eq: "guide" }
+            sourceInstanceName: { eq: "docs" }
             extension: { regex: "/^(?:md)|(?:mdx)$/" }
           }
         ) {

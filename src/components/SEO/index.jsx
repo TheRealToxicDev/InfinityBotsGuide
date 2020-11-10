@@ -70,7 +70,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: "og:image",
-          content: "https://media.discordapp.net/attachments/585552449922662420/745845189175803984/WORKBITCH.png"
+          content: "https://cdn.discordapp.com/avatars/668542916414668832/a5f2756aeb340d445086fc16cdd4f52a.png?size=2048?size=1024"
         },
         {
           property: `og:description`,
@@ -114,28 +114,28 @@ function SEO({ description, lang, meta, title }) {
         {
           rel: "mask-icon",
           color: themeColor,
-          href: "https://media.discordapp.net/attachments/585552449922662420/745845189175803984/WORKBITCH.png"
+          href: "/img/safari-pinned-tab.svg"
         },
         {
           rel: "apple-touch-icon",
           sizes: "180x180",
-          href: "https://media.discordapp.net/attachments/585552449922662420/745845189175803984/WORKBITCH.png"
+          href: "/img/apple-touch-icon.png"
         },
         {
           rel: "icon",
           type: "image/png",
           sizes: "32x32",
-          href: "https://media.discordapp.net/attachments/585552449922662420/745845189175803984/WORKBITCH.png"
+          href: "https://cdn.discordapp.com/avatars/668542916414668832/a5f2756aeb340d445086fc16cdd4f52a.png?size=2048?size=1024"
         },
         {
           rel: "icon",
-          type: "image/png", 
+          type: "image/png",
           sizes: "16x16",
-          href: "https://media.discordapp.net/attachments/585552449922662420/745845189175803984/WORKBITCH.png"
+          href: "https://cdn.discordapp.com/avatars/668542916414668832/a5f2756aeb340d445086fc16cdd4f52a.png?size=2048?size=1024"
         },
         {
           rel: "shortcut icon",
-          href: "https://media.discordapp.net/attachments/585552449922662420/745845189175803984/WORKBITCH.png"
+          href: "https://cdn.discordapp.com/avatars/668542916414668832/a5f2756aeb340d445086fc16cdd4f52a.png?size=2048?size=1024"
         }
       ]}
     />

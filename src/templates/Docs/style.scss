@@ -1,0 +1,498 @@
+@import "../../scss/colors";
+@import "../../scss/media";
+@import "../../scss/theme";
+@import "../../scss/fonts";
+
+@media (min-width: 1500px) {
+    .container.with-toc {
+        max-width: 1100px;
+    }
+}
+
+.docs-root--content {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+
+    @include respond-below(xs) {
+        padding-bottom: 2.5rem;
+        padding-right: 1.25rem;
+        padding-left: 1.25rem;
+    }
+
+    h1 {
+        font-weight: 600 !important;
+
+        @include respond-below(sm) {
+            font-size: 2rem;
+        }
+    }
+
+    a:not(.btn) {
+        @include light-fg($link-color);
+        @include dark-fg($link-color, 20%);
+        color: $link-color;
+        text-decoration: none;
+        transition: all 100ms cubic-bezier(0.4, 0, 0.2, 1);
+        border-bottom: 1px solid rgba($link-color, 0.4);
+
+        &:hover,
+        &:focus {
+            border-bottom-color: $link-color;
+        }
+    }
+
+    .docs-content--wrapper {
+        &.with-toc {
+            display: flex;
+            flex-direction: row;
+
+            .docs-content {
+                max-width: 49rem;
+                min-width: 0;
+            }
+        }
+
+        & > div {
+            flex-grow: 1;
+
+            .table-of-contents {
+                @include respond-below(lg) {
+                    display: none;
+                }
+
+                position: sticky !important;
+                top: 6.15rem;
+                padding-left: 2.65em;
+                padding-top: 0.35em !important;
+                z-index: 10;
+                max-height: calc(100vh - 11rem);
+            }
+        }
+    }
+}
+
+.docs-content {
+    overflow-wrap: break-word;
+    @include dark-fg;
+    @include light-fg;
+
+    & > hr {
+        opacity: 0.4;
+        margin-top: 4rem;
+    }
+
+    & > p:first-of-type {
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 300;
+        color: rgba($-dark, 0.95);
+        margin-bottom: 2rem;
+    }
+
+    & > a {
+        border-bottom: none !important;
+        color: rgba($-dark, 0.5) !important;
+        span {
+            font-size: 0.9em;
+            vertical-align: 1px;
+        }
+
+        &:hover,
+        &:focus {
+            color: rgba($-dark, 0.65) !important;
+        }
+
+        &:active {
+            color: rgba($-dark, 0.8) !important;
+        }
+    }
+
+    h1 {
+        margin-top: 2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        margin-top: 1.75rem;
+
+        @include respond-below(sm) {
+            font-size: 1.7rem;
+        }
+    }
+
+    p + .anchor-wrapper h3 {
+        margin-top: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+        margin-top: 1.75rem;
+    }
+
+    h4 {
+        font-size: 1.15rem;
+        margin-top: 1.6rem;
+    }
+
+    h5 {
+        @include dark-fade-fg;
+        @include light-fade-fg;
+
+        font-size: 0.95rem;
+        margin-top: 1.75rem;
+        margin-bottom: 1.25rem;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    h6 {
+        @include dark-bg($dark-450);
+        @include light-bg($light-250);
+        @include dark-border(transparent);
+        @include light-border($light-200);
+        @include dark-fg;
+        @include light-fg;
+
+        display: flex;
+        align-items: center;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom: none !important;
+        margin: 20px 0 0;
+        padding-left: 12px;
+        font-size: 18px;
+        font-weight: 600;
+        height: 44px;
+        z-index: 2;
+        font-family: $font-family-sans-serif;
+    }
+
+    p,
+    ul,
+    ol {
+        @include dark-fg($adjust: -15%);
+        @include light-fg($adjust: 10%);
+    }
+
+    blockquote {
+        @include dark-border(
+            rgba($-light, 0.1),
+            $border: 0.4rem solid,
+            $side: left
+        );
+        @include light-border(
+            rgba($-dark, 0.1),
+            $border: 0.4rem solid,
+            $side: left
+        );
+
+        padding: 0 0 0 1.25rem;
+        margin-top: 1.75rem;
+        margin-bottom: 2.25rem;
+
+        p {
+            margin-bottom: 0;
+        }
+    }
+
+    .blockquote {
+        font-size: inherit !important;
+    }
+
+    .anchor-wrapper {
+        position: relative;
+
+        .anchor {
+            position: absolute;
+            left: 0px;
+            top: -95px;
+        }
+
+        &.anchor--h6 + .gatsby-highlight {
+            @include light {
+                border-top: 1px solid rgba(color-adjust($-primary, -30%), 0.25);
+            }
+
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+    }
+
+    .docs-collapse {
+        .gatsby-highlight {
+            margin-top: -1rem;
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+        }
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        position: relative;
+    }
+
+    ul,
+    ol {
+        li > p {
+            margin-bottom: 0;
+        }
+
+        li {
+            margin-bottom: 0.4rem;
+        }
+
+        ul {
+            margin: 0.5rem 0 0;
+        }
+    }
+
+    ol {
+        margin-bottom: 2rem;
+    }
+
+    .table-outer {
+        @include light-border(rgba($light-000, 0.5));
+
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        box-shadow: $drop-shadow;
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+        overflow-y: hidden !important;
+    }
+
+    .table {
+        @include light-fg;
+        @include dark-semi-fade-fg;
+
+        margin-bottom: 0;
+
+        tr:last-child td:first-child {
+            border-bottom-left-radius: 10px;
+        }
+
+        tr:last-child td:last-child {
+            border-bottom-right-radius: 10px;
+        }
+
+        td,
+        th {
+            @include dark-border(rgba($dark-000, 0.4), $side: top);
+            @include light-border(rgba($light-000, 0.4), $side: top);
+
+            min-width: 6rem;
+        }
+
+        td:not(:first-child),
+        th:not(:first-child) {
+            min-width: 8rem;
+        }
+
+        @include respond-below(md) {
+            td:not(:first-child),
+            th:not(:first-child) {
+                min-width: 10rem;
+            }
+        }
+
+        tr:nth-child(2n) {
+            @include dark-bg($dark-350);
+            @include light-bg($light-350);
+        }
+
+        tr:nth-child(2n + 1) {
+            @include dark-bg($dark-400);
+            @include light-bg($light-400);
+        }
+
+        thead {
+            tr {
+                @include dark-bg($dark-300, $important: true);
+                @include light-bg($light-300, $important: true);
+            }
+
+            th {
+                @include dark-fade-fg;
+                @include light-fade-fg;
+                @include dark-border(
+                    rgba($dark-000, 0.4),
+                    $border: solid 1px,
+                    $side: bottom
+                );
+                @include light-border(
+                    rgba($light-000, 0.4),
+                    $border: solid 1px,
+                    $side: bottom
+                );
+
+                padding: 8px;
+                font-size: 0.9rem;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+        }
+        td {
+            font-size: 0.9rem;
+            font-weight: 400;
+        }
+    }
+
+    .gatsby-highlight {
+        @extend %custom-scrollbar;
+        @extend %code-bg;
+
+        @include dark {
+            box-shadow: $drop-shadow;
+        }
+
+        @include light {
+            box-shadow: inset 0 0 6px rgba(black, 0.1);
+        }
+
+        overflow: auto;
+        margin: 0 0 1rem;
+        border-radius: 8px;
+        padding: 0 0.5rem;
+        white-space: pre-line;
+
+        pre {
+            @extend %custom-scrollbar;
+            padding: 1.25rem;
+        }
+    }
+
+    .gatsby-resp-image-wrapper {
+        margin-top: 1.75rem;
+        margin-bottom: 2rem;
+        box-shadow: $drop-shadow;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    *:not(pre) > code {
+        @include dark-fg($-primary, 30%);
+        @include light-fg($-primary, -25%);
+
+        padding-right: 0.2rem;
+        padding-left: 0.2rem;
+        border: none !important;
+        border-radius: 0 !important;
+    }
+}
+
+.metadata {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    @include respond-below(xs) {
+        margin-top: 1.25rem;
+        margin-left: 0.25rem;
+    }
+
+    &--text {
+        @include dark-fade-fg;
+        @include light-fade-fg;
+        font-size: 0.85rem;
+
+        .modified-time {
+            @include respond-below(xs) {
+                display: block;
+            }
+        }
+
+        .edit-link {
+            @include respond-above(xs) {
+                margin-left: 1rem;
+            }
+
+            @include respond-below(xs) {
+                display: block;
+                margin-top: 0.5rem;
+            }
+        }
+    }
+}
+
+.authors {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 0.8rem;
+
+    %author-base {
+        width: 32px;
+        height: 32px;
+        margin: 0;
+        display: flex;
+        padding: 0;
+        z-index: 0;
+        position: relative;
+        border-radius: 128px;
+        border-bottom: none !important;
+
+        @include dark {
+            box-shadow: 0 0 0 2px $dark-main-bg;
+        }
+
+        @include light {
+            box-shadow: 0 0 0 2px $light-main-bg;
+        }
+
+        div {
+            width: 32px;
+            height: 32px;
+            margin: 0;
+            display: flex;
+            padding: 0;
+            overflow: hidden;
+            position: relative;
+            mask-image: radial-gradient(white, black);
+            align-items: center;
+            border-radius: 128px;
+            justify-content: center;
+        }
+    }
+
+    a {
+        @extend %author-base;
+        border-bottom: none !important;
+        transition-property: none !important;
+
+        img {
+            width: 100%;
+            height: 100%;
+            max-width: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            @include dark {
+                background-color: $dark-main-bg;
+            }
+
+            @include light {
+                background-color: $light-main-bg;
+            }
+        }
+
+        &:not(:first-child) {
+            margin-right: -8px;
+        }
+    }
+
+    &--more {
+        @extend %author-base;
+        background-color: $light-250;
+        align-items: center;
+        justify-content: center;
+        color: $-dark !important;
+        border-bottom: none !important;
+    }
+}

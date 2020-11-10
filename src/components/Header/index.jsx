@@ -7,9 +7,8 @@ import useDarkMode from "use-dark-mode";
 import Link from "components/Link";
 import Icon from "components/Icon";
 import { Navbar, Container, Nav } from "react-bootstrap";
-
-
-import LogoIconSvg from "assets/ParadiseLogo.svg";
+
+import LogoIconSvg from "assets/ninjabot.svg";
 import "./style.scss";
 
 function Header({ sticky, leftChildren, ...rest }) {
@@ -63,7 +62,7 @@ function Header({ sticky, leftChildren, ...rest }) {
           <input
             className="search--input"
             id="docs-search-box"
-            placeholder="Search the Paradise Docs"
+            placeholder="Search docs.ninjabot.site"
           />
         </div>
         <Nav className="right-links">
