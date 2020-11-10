@@ -1,6 +1,6 @@
 ---
-shortTitle: Docs
-title: Documentation
+shortTitle: API Docs
+title: API Documentation
 ---
 
 <Overview />
@@ -13,22 +13,9 @@ Infinity Bot List, Search your favourite bot for an exciting start to your serve
 ---
 
 ## Features
-* Paid Promotion
-* Iframe Long Description
-* Certified Bot Vanity URLs
-* Vote for bots
-* Additional Bot Owners/Editors
-* Certification Program
-* Bot Reviews
-* HTML Long Description
-* Markdown Long Description
-* Custom Bot Donate Link
-* Custom Bot Support Link
-* Discord Bot Support Link
-* Votes sent to Webhooks
-* Categories or Tags
-* Bot Widget
-* Server Count API
+* Bot Widget.
+* Server Count API.
+* POST and GET Methods.
 
 
 ---
