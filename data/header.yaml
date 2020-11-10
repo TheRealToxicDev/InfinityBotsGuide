@@ -10,8 +10,8 @@ links:
     text: Website
 
 rightLinks:
-  - href: "infinitybotlist.com/discord"
+  - href: "https://infinitybotlist.com/discord"
     icon: discord
     class: d-none d-sm-block
-  - href: "https://github.com/TheRealToxicDev/InfinityBotsGuide"
+  - href: "https://github.com/InfinityBots"
     icon: github
