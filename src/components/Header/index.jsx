@@ -9,6 +9,7 @@ import Icon from "components/Icon";
 import { Navbar, Container, Nav } from "react-bootstrap";
 
 import LogoIconSvg from "assets/InfinityBots.svg";
+import InfinityLogo from "assets/InfinityBots.png"
 import "./style.scss";
 
 function Header({ sticky, leftChildren, ...rest }) {
@@ -104,7 +105,7 @@ const Brand = ({ className, ...rest }) => {
       href="/"
       {...rest}
     >
-      <img src="https://images-ext-1.discordapp.net/external/EZYpGUWYOqjWNbjLprFnQOVmB7zOzyzvcxb2sYo74G4/%3Fwidth%3D896%26height%3D896/https/images-ext-1.discordapp.net/external/ZAjvH-R269U8JwvGY-Nyb_frzVId_j-t7YuY_OuZvds/%253Fsize%253D1024/https/cdn.discordapp.com/avatars/758643392535199764/29266f4d2efe846207a1b07eb198c32b.png">
+     
     </Link>
   );
 };
