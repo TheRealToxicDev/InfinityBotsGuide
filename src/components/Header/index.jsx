@@ -7,8 +7,8 @@ import useDarkMode from "use-dark-mode";
 import Link from "components/Link";
 import Icon from "components/Icon";
 import { Navbar, Container, Nav } from "react-bootstrap";
-
-import LogoIconSvg from "assets/ninjabot.svg";
+
+import LogoIconSvg from "assets/InfinityBots.svg";
 import "./style.scss";
 
 function Header({ sticky, leftChildren, ...rest }) {
