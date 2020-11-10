@@ -4,8 +4,8 @@
   "description": "Search your favourite bot for an exciting start to your server.",
   "homepage_url": "guide.infinitybotlist.com",
   "start_url": "/",
-  "background_color": "#496D8F",
-  "theme_color": "#748CDA",
+  "background_color": "#16151D",
+  "theme_color": "#8A6AFD",
   "display": "standalone",
   "icons": [
     {
