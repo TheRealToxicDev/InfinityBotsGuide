@@ -7,15 +7,15 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Ninja Bot Docs`,
-    description: `All-in-one Discord Moderation Bot.`,
+    title: `Infinity Bots Docs`,
+    description: `The Official Documentation for Infinity Bot List.`,
     author: `ToxicDev`,
-    siteUrl: `https://info.ninjabot.site`,
+    siteUrl: `https://guide.infinitybotlist.com`,
     themeColor,
-    msTileColor: "#2b5797",
+    msTileColor: "#8A6AFD",
     github: {
       owner: "TheRealToxicDev",
-      name: "NinjaBotDocs",
+      name: "InfinityBotsGuide",
       docsRoot: "docs/",
       branch: "master"
     },
