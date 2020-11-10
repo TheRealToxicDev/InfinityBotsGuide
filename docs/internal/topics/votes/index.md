@@ -7,7 +7,9 @@ Users can currently vote every 12 hours for each bot.
 ---
 
 # Voting API Rules.
+
 Unacceptable use of our API (breaking these rules will result in appropriate punishments):
+
 1. "Vote locking" a large percentage AND/OR majority of your bots commands AND/OR features.
 2. Punishing users of your bot AND/OR community for not voting.
 3. Bots should not be rewarding users for voting for another bot. E.g if a User votes for Bot A they should not be receiving Bot B's currency
