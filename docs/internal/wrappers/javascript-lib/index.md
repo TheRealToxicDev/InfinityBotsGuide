@@ -3,7 +3,7 @@ shortTitle: JavaScript
 title: JavaScript Library
 ---
 
-This is our official library used for interacting with the Paradise API.
+This is our official library used for interacting with the Infinity Bots API.
 
 > Maintainer: Dexter#1337
 
