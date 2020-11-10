@@ -16,12 +16,7 @@ Infinity Bot List, Search your favourite bot for an exciting start to your serve
 ---
 
 ## Features
-
-List features:
-This list is known to have these features.
-
-Bot Resubmission
-* Offers Paid Promotion
+* Paid Promotion
 * Iframe Long Description
 * Certified Bot Vanity URLs
 * Vote for bots
