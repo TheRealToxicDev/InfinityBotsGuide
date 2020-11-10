@@ -260,7 +260,7 @@ exports.createPages = ({ graphql, actions, reporter }) => {
         children: [],
         // Default root node
         slug: "",
-        title: "Documentation",
+        title: "",
         isRoot: true,
         invisible: true
       };
