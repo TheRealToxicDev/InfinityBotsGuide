@@ -3,7 +3,7 @@
   "description": "",
   "version": "1.0.0",
   "author": "Infintiy Bot List",
-  "creator": "Toxic Dev
+  "creator": "Toxic Dev",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/free-brands-svg-icons": "^5.9.0",
