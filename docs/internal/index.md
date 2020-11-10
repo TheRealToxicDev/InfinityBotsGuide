@@ -1,9 +1,8 @@
 ---
 shortTitle: Infinity Bots Docs
-title: Infinity Bots Documentation
+title: Documentation
 isRoot: true
 noTOC: true
-overrideNav: Infinity Bots Docs
 ---
 
 <Overview />
