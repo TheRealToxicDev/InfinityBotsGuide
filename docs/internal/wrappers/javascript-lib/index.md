@@ -95,7 +95,7 @@ client.login("token")
 
 ## Get method
 
-<Route method="POST" path="/api/bots/:botid/info" /> 
+<Route method="GET" path="/api/bots/:botid/info" /> 
 
 ---
 
