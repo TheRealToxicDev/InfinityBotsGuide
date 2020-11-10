@@ -1,8 +1,8 @@
 {
-  "name": "docs.paradisebots.net",
-  "short_name": "Paradise Docs",
-  "description": "The Discord Bot List that Strives to provide some freedom!",
-  "homepage_url": "https://docs.paradisebots.net",
+  "name": "guide.infinitybotlist.com",
+  "short_name": "Infinity Bots Guide",
+  "description": "Search your favourite bot for an exciting start to your server.",
+  "homepage_url": "guide.infinitybotlist.com",
   "start_url": "/",
   "background_color": "#496D8F",
   "theme_color": "#748CDA",
