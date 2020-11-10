@@ -14,10 +14,10 @@ module.exports = {
     themeColor,
     msTileColor: "#8A6AFD",
     github: {
-      owner: "TheRealToxicDev",
+      owner: "InfinityBots",
       name: "InfinityBotsGuide",
       docsRoot: "docs/",
-      branch: "master"
+      branch: "main"
     },
     api: {
       restVersion: "v1 RESTful API",
