@@ -105,7 +105,7 @@ const Brand = ({ className, ...rest }) => {
       href="/"
       {...rest}
     >
-     <LogoIconSvg className="brand--icon"/>
+    
     </Link>
   );
 };
