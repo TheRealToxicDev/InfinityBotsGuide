@@ -10,13 +10,34 @@ overrideNav: Infinity Bots Docs
 
 ---
 
-# Introduction
+## Introduction
+Infinity Bot List, Search your favourite bot for an exciting start to your server.
 
 ---
 
-## Issues
+## Features
 
-If you find any bugs please make a issue so i can look into it and fix it
+List features:
+This list is known to have these features.
+
+Bot Resubmission
+* Offers Paid Promotion
+* Iframe Long Description
+* Certified Bot Vanity URLs
+* Vote for bots
+* Additional Bot Owners/Editors
+* Certification Program
+* Bot Reviews
+* HTML Long Description
+* Markdown Long Description
+* Custom Bot Donate Link
+* Custom Bot Support Link
+* Discord Bot Support Link
+* Votes sent to Webhooks
+* Categories or Tags
+* Bot Widget
+* Server Count API
+
 
 ---
 
