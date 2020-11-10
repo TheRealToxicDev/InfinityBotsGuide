@@ -19,11 +19,12 @@ $porcelain: #f6f8f9 !default;
 $linh-blue: #6496c4 !default;
 $olivine: #cba15b !default;
 $tundora: #453e3e !default;
-$mine-shaft: #282c34 !default;
+$mine-shaft: #16151D !default;
 $neptune: #73a3ba !default;
 $equator: #e3c75b !default;
 $aqua-forest: #5da161 !default;
 $burnt-sienna: #e6584d !default;
+$cyan: #8A6AFD !default
 
 // Default bootstrap colors
 $blue: #03a9f4 !default;
@@ -39,7 +40,7 @@ $cyan: #00bcd4 !default;
 
 // Custom color scheme
 $theme-colors: (
-    //primary: $linh-blue,
+    primary: $cyan,
     secondary: $olivine,
     tertiary: $tundora,
     success: $aqua-forest,
