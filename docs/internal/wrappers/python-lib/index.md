@@ -1,6 +1,6 @@
 ---
-shortTitle: JavaScript
-title: JavaScript Library
+shortTitle: Python
+title: Python Library
 ---
 
 This is our official python library used for interacting with the Infinity Bots API.
