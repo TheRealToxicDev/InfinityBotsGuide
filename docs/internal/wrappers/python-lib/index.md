@@ -1,6 +1,6 @@
 ---
 shortTitle: Python
-title: Python Library
+title: Python Wrapper
 ---
 
 This is our official python library used for interacting with the Infinity Bots API.
