@@ -46,7 +46,7 @@ client.on('ready', () => {
 console.log('Bot is online and ready');
 
 let server_count = client.guilds.cache.size;
-let api_key = 'SOME_TOKEN' // Your infinity bot lost API Token generated on the bots page (owner only)
+let api_key = 'SOME_TOKEN' // Your infinity bot list API Token generated on the bots page (owner only)
 
 fetch(`https://infinitybotlist.com/api/bots/bot-id-here`, {
             method: "POST",
@@ -79,7 +79,7 @@ client.on('ready', () => {
 console.log('Bot is online and ready');
 
 let server_count = client.guilds.size;
-let api_key = 'SOME_TOKEN' // Your infinity bot lost API Token generated on the bots page (owner only)
+let api_key = 'SOME_TOKEN' // Your infinity bot list API Token generated on the bots page (owner only)
 
 fetch(`https://infinitybotlist.com/api/bots/bot-id-here`, {
             method: "POST",
