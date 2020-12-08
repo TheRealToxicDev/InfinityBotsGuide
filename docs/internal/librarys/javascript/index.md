@@ -5,29 +5,6 @@ title: JavaScript Library
 
 This is our official javascript library used for interacting with the Infinity Bots API.
 
-> Maintainer: Dexter#1337
-
-## Installation
-`npm i infinity-api@latest`
-
-or
-
-`npm i infinity-api@1.0.6`
-
-or
-
-`npm i infinity-api --save`
-
----
-
-## Hard Coded Install
-Append the Line below to your package.json
-```
-    "infinity-api": "^1.0.6",
-```
-
-• Save and profit
-
 ---
 
 ## Ratelimits
@@ -58,14 +35,13 @@ Error | 400 | Something went wrong here. |
 ---
 
 ###### POST Example - (discord.js v12)
-
-Place this inside of a `READY` event
-
 ```js
 const fetch = require("node-fetch")
 
 let server_count = client.guilds.cache.size;
 let api_key = 'SOME_TOKEN' // Your infinity bot lost API Token generated on the bots page (owner only)
+
+client.on('ready', () => { 
 
 fetch(`https://infinitybotlist.com/api/bots/bot-id-here`, {
             method: "POST",
@@ -78,19 +54,19 @@ fetch(`https://infinitybotlist.com/api/bots/bot-id-here`, {
                 shards: 1 // Not required for bots in less then 1k Guilds
             })
         }).then(async res => console.log(await res.json()))
+});
 ```
 
 ---
 
 ###### POST Example - (discord.js v11)
-
-Place this inside of a `READY` event
-
 ```js
 
 const fetch = require("node-fetch")
 
-let server_count = client.guilds.cache.size;
+client.on('ready', () => { 
+
+let server_count = client.guilds.size;
 let api_key = 'SOME_TOKEN' // Your infinity bot lost API Token generated on the bots page (owner only)
 
 fetch(`https://infinitybotlist.com/api/bots/bot-id-here`, {
@@ -104,6 +80,7 @@ fetch(`https://infinitybotlist.com/api/bots/bot-id-here`, {
                 shards: 1 // Not required for bots in less then 1k Guilds
             })
         }).then(async res => console.log(await res.json()))
+});
 
 ```
 
