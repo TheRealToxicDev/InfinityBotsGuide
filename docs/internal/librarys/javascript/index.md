@@ -36,12 +36,17 @@ Error | 400 | Something went wrong here. |
 
 ###### POST Example - (discord.js v12)
 ```js
-const fetch = require("node-fetch")
+const Discord = require('discord.js');
+const client = new Discord.Client();
+const fetch = require("node-fetch");
+
+
+client.on('ready', () => { 
+
+console.log('Bot is online and ready');
 
 let server_count = client.guilds.cache.size;
 let api_key = 'SOME_TOKEN' // Your infinity bot lost API Token generated on the bots page (owner only)
-
-client.on('ready', () => { 
 
 fetch(`https://infinitybotlist.com/api/bots/bot-id-here`, {
             method: "POST",
@@ -55,6 +60,8 @@ fetch(`https://infinitybotlist.com/api/bots/bot-id-here`, {
             })
         }).then(async res => console.log(await res.json()))
 });
+
+client.login("Some_Bot_Token") // Not required (Remember this is an example)
 ```
 
 ---
@@ -62,9 +69,14 @@ fetch(`https://infinitybotlist.com/api/bots/bot-id-here`, {
 ###### POST Example - (discord.js v11)
 ```js
 
-const fetch = require("node-fetch")
+const Discord = require('discord.js');
+const client = new Discord.Client();
+const fetch = require("node-fetch");
+
 
 client.on('ready', () => { 
+
+console.log('Bot is online and ready');
 
 let server_count = client.guilds.size;
 let api_key = 'SOME_TOKEN' // Your infinity bot lost API Token generated on the bots page (owner only)
@@ -82,6 +94,7 @@ fetch(`https://infinitybotlist.com/api/bots/bot-id-here`, {
         }).then(async res => console.log(await res.json()))
 });
 
+client.login("Some_Bot_Token") // Not required (Remember this is an example)
 ```
 
 ---
