@@ -1,0 +1,137 @@
+---
+shortTitle: JavaScript
+title: JavaScript Library
+---
+
+This is our official javascript library used for interacting with the Infinity Bots API.
+
+> Maintainer: Dexter#1337
+
+## Installation
+`npm i infinity-api@latest`
+
+or
+
+`npm i infinity-api@1.0.6`
+
+or
+
+`npm i infinity-api --save`
+
+---
+
+## Hard Coded Install
+Append the Line below to your package.json
+```
+    "infinity-api": "^1.0.6",
+```
+
+• Save and profit
+
+---
+
+## Ratelimits
+You can POST Server and Shard Count stats once every 5 minutes
+
+###### Rate Limit Structure
+| Route	| Request | Requests Allowed Per 5 Minutes |
+|--------------|----------|--------------|
+/api/bots/:botid | POST | 1 | 
+
+---
+
+---
+
+## Post Method
+
+<Route method="POST" path="/api/bots/:botid" auth /> 
+
+###### Responses
+Status | Code | Description
+|---------- |----------|----------|
+Success | 200 | Your stats have been posted |
+Not Found | 404 | Couldn't find bot |
+Rate Limit | 429 | You're being ratelimited one request per 5 mins |
+Internal Server Error | 500 | An error occurred, Contact Dexter |
+Error | 400 | Something went wrong here. | 
+
+---
+
+###### POST Example - (discord.js v12)
+
+Place this inside of a `READY` event
+
+```js
+const fetch = require("node-fetch")
+
+let server_count = client.guilds.cache.size;
+let api_key = 'SOME_TOKEN' // Your infinity bot lost API Token generated on the bots page (owner only)
+
+fetch(`https://infinitybotlist.com/api/bots/bot-id-here`, {
+            method: "POST",
+            headers: {
+                "authorization": "api_key",
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                servers: server_count,
+                shards: 1 // Not required for bots in less then 1k Guilds
+            })
+        }).then(async res => console.log(await res.json()))
+```
+
+---
+
+###### POST Example - (discord.js v11)
+
+Place this inside of a `READY` event
+
+```js
+
+const fetch = require("node-fetch")
+
+let server_count = client.guilds.cache.size;
+let api_key = 'SOME_TOKEN' // Your infinity bot lost API Token generated on the bots page (owner only)
+
+fetch(`https://infinitybotlist.com/api/bots/bot-id-here`, {
+            method: "POST",
+            headers: {
+                "authorization": "api_key",
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                servers: server_count,
+                shards: 1 // Not required for bots in less then 1k Guilds
+            })
+        }).then(async res => console.log(await res.json()))
+
+```
+
+---
+
+## Get method
+
+<Route method="GET" path="/api/bots/:botid/info" /> 
+
+---
+
+###### Response
+Status | Code | Description
+|---------- |----------|----------|
+Success | 200 | GET Request Successful |
+Not Found | 404 | Couldn't find bot |  
+
+---
+
+###### GET Example
+```js
+const fetch = require("node-fetch")
+fetch(`https://infinitybotlist.com/api/bots/bot-id-here/info`, {
+            method: "GET",
+            headers: {
+                "Content-Type": "application/json"
+            }
+        }).then(async res => console.log(await res.json()));
+```
+
+---
