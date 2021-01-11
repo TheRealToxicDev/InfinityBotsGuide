@@ -69,6 +69,7 @@ const stats = new IBL("Your BotID", "Your Bot Api token") // Add botID string, A
 ## Get method
 
 <Route method="GET" path="/api/bots/:botid/info" /> 
+<Route method="GET" path="/api/users/:userID" /> 
 
 ---
 
@@ -100,6 +101,8 @@ const stats = new IBL("Your BotID", "Your Bot Api token") // Add botID string, A
         console.log(data)
     }
 ```
+
+## Get method
 
 ###### Constructor
 ```
