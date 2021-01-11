@@ -5,25 +5,16 @@ title: JavaScript Wrapper
 
 This is our official javascript library used for interacting with the Infinity Bots API.
 
-> Maintainer: Dexter#1337
 
 ## Installation
 `npm i infinity-api@latest`
-
-or
-
-`npm i infinity-api@1.0.6`
-
-or
-
-`npm i infinity-api --save`
 
 ---
 
 ## Hard Coded Install
 Append the Line below to your package.json
 ```
-    "infinity-api": "^1.0.6",
+    "infinity-api": "^VERSION",
 ```
 
 • Save and profit
@@ -36,7 +27,7 @@ You can POST Server and Shard Count stats once every 5 minutes
 ###### Rate Limit Structure
 | Route	| Request | Requests Allowed Per 5 Minutes |
 |--------------|----------|--------------|
-/api/bots/:botid | POST | 1 | 
+/api/bots/:botid | POST | 3 | 
 
 ---
 
@@ -58,37 +49,19 @@ Error | 400 | Something went wrong here. |
 
 ###### Constructor
 ```
-IBL(client, token, true)
+IBL(client, token)
 ```
 
 ---
 
-###### POST Example (discord.js v12)
+###### POST Example
 ```js
-const { Client } = require("discord.js") //import client from discord api @12.3.1
-const client = new Client();
-const IBL = require("infinity-api"); // we import our api
-const stats = new IBL(client.user.id, "bot-auth-token", true) // true means give response
-const prefix = "!";
- 
-client.on("ready", () => { // ready listener
-    console.log(`Logged in as ${client.user.tag}`)
+const IBL = require("infinity-api"); // We import our api
+const stats = new IBL("Your BotID", "Your Bot Api token") // Add botID string, And Authorization token from the bot page
+
     setInterval(() => { 
-        stats.post(client.guilds.cache.size)
-        // stats.post(client.guilds.cache.size, client.shard.count) // for shards
-        }, 3e5)
-    }) 
-client.on("message", message => { // message listener
-    if(message.author.bot) return;
-    if(message.channel.type !== "text") return;
-    if(!message.content.toLowerCase().startsWith(prefix)) return;
-    if(message.content == (prefix + "ping")){
-        message.reply(`Pong ${client.ws.ping}ms`)
-    }
-})
- 
- 
-client.login("token")
+        stats.postStats("Guilds count" /*, "Shards Count" */) // Post guilds count and shards count
+    }, 3e5)
 ```
 
 ---
@@ -109,64 +82,38 @@ Not Found | 404 | Couldn't find bot |
 
 ###### Constructor
 ```
-IBL()
+IBL(client, token)
 ```
 
-###### GET Example (discord.js v12) 
+###### GET Example
 ```js
-const { Client } = require("discord.js") //import client from discord api @12.3.1
-const client = new Client();
-const IBL = require("infinity-api"); // we import our api
-const stats = new IBL()
-const prefix = "!";
- 
-client.on("ready", () => { // ready listenerconsole.log(`Logged in as ${client.user.tag}`)}) 
-client.on("message", message => { // message listener
-    if(message.author.bot) return;
-    if(message.channel.type !== "text") return;
-    if(!message.content.toLowerCase().startsWith(prefix)) return;
-    if(message.content == (prefix + "ping")){
-        message.reply(`Pong ${client.ws.ping}ms`)
+const IBL = require("infinity-api"); // We import our api
+const stats = new IBL("Your BotID", "Your Bot Api token") // Add botID string, And Authorization token from the bot page
+
+// Get Bot Stats
+    stats.getStats((data) => {
+        console.log(data)
+    })
+
+// Get User Stats
+    stats.getUser("userID", (data) => {
+        console.log(data)
     }
-     if(message.content == (prefix + "stats")){
-        stats.bot((data) => { // ID should be string
-        let embed = new MessageEmbed()
-        .setTitle(data.bot_name)
-        .setDescription(`
-        Votes: ${data.votes},
-        Support: ${data.support},
-        Website: ${data.website},
-        Donate: ${data.donate},
-        Certified: ${data.certified},
-        Tags: ${data.tags}
-        Prefix: ${data.prefix},
-        Library: ${data.library},
-        Description: ${data.short_desc},
-        Servers: ${data.servers},
-        Shards: ${data.shards},
-        Staff: ${data.staff}
-        `)
-        .setFooter(`Bot created by ${data.owner}`)
-        })
-        message.channel.send(embed)
-    }
- 
-    if(message.content == (prefix + "user")){
-        stats.user("userID", (data) => { // ID should be string
-        let embed = new MessageEmbed()
-        .setTitle(`${data.username}'s Stats`)
-        .setDescription(`
-        Developer: ${data.developer},
-        Staff: ${data.staff},
-        Certified: ${data.certified},
-        About: ${data.about},
-        `)
-        })
-        message.channel.send(embed)
-    }
-})
- 
- 
-client.login("token")
 ```
----
+
+###### Constructor
+```
+const IBL = new infinity("botID", "botAuth", {webPort: 3001, webPath: "/IBLhook", webAuth: "Auth you placed in custom webhooks"});
+```
+
+###### Webhooks
+```js
+const infinity = require("infinity-api") // We import our api
+const IBL = new infinity("botID", "botAuth", {webPort: 3001, webPath: "/IBLhook", webAuth: "Auth you placed in custom webhooks"}); // We fill requirements
+
+IBL.webhook.on("votes", (vote) => {
+    console.log(vote) // Receive vote content
+})
+IBL.webhook.on("ready", console.log) // Once the webserver start u will get message
+IBL.webhook.on("destroyed", console.log) // Any errors will be generated from him
+```
