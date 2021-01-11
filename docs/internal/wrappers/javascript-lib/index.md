@@ -102,7 +102,7 @@ const stats = new IBL("Your BotID", "Your Bot Api token") // Add botID string, A
     }
 ```
 
-## Get method
+## Custom Webhooks
 
 ###### Constructor
 ```
