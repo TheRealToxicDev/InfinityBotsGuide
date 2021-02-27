@@ -10,7 +10,7 @@ module.exports = {
     title: `Infinity Bots Docs`,
     description: `The Official Documentation for Infinity Bot List.`,
     author: `ToxicDev`,
-    siteUrl: `https://guide.infinitybotlist.com`,
+    siteUrl: `https://guide.infinitybots.xyz`,
     themeColor,
     msTileColor: "#8A6AFD",
     github: {
