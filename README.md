@@ -1,7 +1,7 @@
 # Inifnity Bots Guide
 * Documentation for the [Infinity Bot List](https://infinitybots.xyz) Website and API
 
----
+--- 
 
 ## Links
 Add Bot:
