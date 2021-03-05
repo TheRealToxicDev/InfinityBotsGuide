@@ -8,3 +8,10 @@
   to = "https://guide.infinitybots.xyz/:splat"
   status = 301
   force = true
+
+# Redirect default Netlify subdomain to primary domain
+[[redirects]]
+  from = "http://guide.infinitybots.xyz/:splat"
+  to = "https://guide.infinitybots.xyz/:splat"
+  status = 301
+  force = true
