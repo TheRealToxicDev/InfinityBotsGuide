@@ -5,13 +5,13 @@ links:
     text: Changelog
   - href: "/internal/"
     text: Docs
-  - href: "https://infinitybotlist.com/"
+  - href: "https://infinitybots.xyz/"
     newTab: false
     text: Website
 
 rightLinks:
-  - href: "https://infinitybotlist.com/discord"
+  - href: "https://infinitybots.xyz/discord"
     icon: discord
     class: d-none d-sm-block
-  - href: "https://github.com/InfinityBots"
+  - href: "https://github.com/InfinityBotList"
     icon: github
