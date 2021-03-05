@@ -9,10 +9,10 @@ This site contains documentation for Infinity Bot List & its companion API, incl
 
 ## 🚀 Get Started
 
-To start using Infinity Bots, Head to our: [Website](https://infinitybotlist.com/bots/add) and and a bot to the list.
+To start using Infinity Bots, Head to our: [Website](https://infinitybots.xyz/bots/add) and add a bot to the list.
 
 ## 🔗 Quick Links
 
-- [Website](https://infinitybotlist.com)
-- [Discord](https://infinitybotlist.com/discord)
-- [Github](https://github.com/InfinityBots) 
+- [Website](https://infinitybots.xyz/)
+- [Discord](https://infinitybots.xyz//discord)
+- [Github](https://github.com/InfinityBotList) 
