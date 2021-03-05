@@ -8,7 +8,7 @@ import Link from "components/Link";
 import Icon from "components/Icon";
 import { Navbar, Container, Nav } from "react-bootstrap";
 
-import LogoIconSvg from "assets/C2394B62-DB0D-4405-8A8D-E4710338222B.svg";
+import LogoIconSvg from "assets/Infinity.svg";
 import InfinityLogo from "assets/InfinityBots.png"
 import "./style.scss";
 
