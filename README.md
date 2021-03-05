@@ -1,5 +1,5 @@
 # Inifnity Bots Guide
-* Documentation for the Infinity Bot List API
+* Documentation for the Infinity Bot List Website and API
 
 ---
 
