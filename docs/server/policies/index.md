@@ -15,7 +15,7 @@ title: Rules and Requirements
 10. Ping any staff member for something not important will lead to get a warn / While on DND / Idle / Offline status 
 11. Arguing with Staff leads to mute / kick / ban
 12. Talking about `DDosing` will lead to a warn
-13. Any attacks on our website including but not limited to `DDos`, `Fuzzing`, `XXS` will lead to a ban
+13. Any attacks on our website including but not limited to `DDos`, `Fuzzing`, `XXS` will lead to a ban and reported to the authorities
 14. Do Not Minimod (Pretending to be staff).
  
 ---
