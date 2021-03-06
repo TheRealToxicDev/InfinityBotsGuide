@@ -12,11 +12,13 @@ title: Rules and Requirements
 7. Leaking private information from a fellow member is strictly prohibited.
 8. Usage of any NSFW link, image or any other material is strictly prohibited. We want a safe environment for kids as well.
 9. Failing to follow the TOS of Discord is punishable.
-10. Ping any staff member for something not important will lead to get a warn / While on DND / Idle / Offline status 
-11. Arguing with Staff leads to mute / kick / ban
-12. Talking about `DDosing` will lead to a warn
+10. Ping any staff member for something not important will lead to get a warn / While on DND / Idle / Offline Status 
+11. Arguing with Staff leads to Warn / Mute / Kick / Ban
+12. Talking about `DDosing` or any illegal activity's will lead to a Mute / Kick / Ban
 13. Any attacks on our website including but not limited to `DDos`, `Fuzzing`, `XXS` will lead to a ban and reported to the authorities
 14. Do Not Minimod (Pretending to be staff).
+15. Abusing any bot in the server will result in a Warn / Mute / Kick / Ban
+16. 
  
 ---
 
