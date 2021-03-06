@@ -1,4 +1,4 @@
 ---
 shortTitle: Changelog
-title: Server Changelog
+title: Changelog
 ---
