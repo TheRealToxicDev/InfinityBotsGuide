@@ -7,14 +7,14 @@ This is our official javascript library used for interacting with the Infinity B
 
 
 ## Installation
-`npm i infinity-api@latest`
+`npm i ibl-api@latest`
 
 ---
 
 ## Hard Coded Install
 Append the Line below to your package.json
 ```
-    "infinity-api": "^VERSION",
+    "ibl-api": "^VERSION",
 ```
 
 • Save and profit
@@ -56,12 +56,18 @@ IBL(client, token)
 
 ###### POST Example
 ```js
-const IBL = require("infinity-api"); // We import our api
-const stats = new IBL("Your BotID", "Your Bot Api token") // Add botID string, And Authorization token from the bot page
+const { Client } = require('discord.js');
+const client = new Client();
+const ibl = require('IBL-api');
 
-    setInterval(() => { 
-        stats.postStats("Guilds count" /*, "Shards Count" */) // Post guilds count and shards count
-    }, 3e5)
+const Poster = new ibl.Poster(client, "AuthToken");
+
+Poster.autoPost({
+  botID: "474745745457", // Your botID
+  timerLoop: 300000 // This is in MS, this is default to 5 minutes
+}, true);
+
+client.login("token");
 ```
 
 ---
@@ -88,18 +94,10 @@ IBL(client, token)
 
 ###### GET Example
 ```js
-const IBL = require("infinity-api"); // We import our api
-const stats = new IBL("Your BotID", "Your Bot Api token") // Add botID string, And Authorization token from the bot page
+const ibl = require('IBL-api'); // We import our api
 
-// Get Bot Stats
-    stats.getStats((data) => {
-        console.log(data)
-    })
+// Coming Soon!
 
-// Get User Stats
-    stats.getUser("userID", (data) => {
-        console.log(data)
-    }
 ```
 
 ## Custom Webhooks
@@ -111,12 +109,8 @@ const IBL = new infinity("botID", "botAuth", {webPort: 3001, webPath: "/IBLhook"
 
 ###### Webhooks
 ```js
-const infinity = require("infinity-api") // We import our api
-const IBL = new infinity("botID", "botAuth", {webPort: 3001, webPath: "/IBLhook", webAuth: "Auth you placed in custom webhooks"}); // We fill requirements
+const infinity = require("ibl-api") // We import our api
 
-IBL.webhook.on("votes", (vote) => {
-    console.log(vote) // Receive vote content
-})
-IBL.webhook.on("ready", console.log) // Once the webserver start u will get message
-IBL.webhook.on("destroyed", console.log) // Any errors will be generated from him
+// Coming Soon!
+
 ```
