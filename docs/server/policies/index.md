@@ -27,6 +27,7 @@ title: Rules and Requirements
 4. Spamming Messages in testing channels
 5. Public Owner / Moderation commands
 6. Responding Command not found messages by doing help `Unknown Command`
+7. Your bot cannot expose any data like token or user data, or have an public eval / exec command
 
 ---
 
@@ -42,7 +43,7 @@ title: Rules and Requirements
 ## Punishments
 1. Warn - Depends on the rule
 2. Mute - Depends on the rule
-3. Kick
-4. Ban
+3. Kick - After 10 Warnings
+4. Ban - Depends on the rule
 
  
