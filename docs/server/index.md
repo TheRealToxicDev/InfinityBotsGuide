@@ -1,9 +1,9 @@
 ---
 shortTitle: Server Docs
-title: Server
+title: Server Rules
 ---
 
-This section houses documentation for the Infinity Bot List Discord Server.
+Server Rules
 
 ---
 

@@ -31,10 +31,10 @@ title: Rules and Requirements
 
 ## Bot requirements
 1. 5 Working Commands (not include help).
-2. Follow discord best practice.
-3. Check no public eval or nsfw not locked or he can ping `@everyone` or `@here`.
+2. Follow discord bot best practices
+3. Check no public eval or NSFW not locked or he can ping `@everyone` or `@here`.
 4. Follow discord [ToS](https://discord.com/terms)
-5. Follow our [ToS](https://infinitybotlist.com/legal)
+5. Follow our [ToS](https://infinitybots.xyz/legal)
 
 ---
 
