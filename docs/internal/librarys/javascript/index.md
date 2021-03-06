@@ -21,7 +21,7 @@ You can POST Server and Shard Count stats once every 5 minutes
 
 ## Post Method
 
-<Route method="POST" path="/api/bots/:botid" auth /> 
+<Route method="POST" path="bot/:botid" auth /> 
 
 ###### Responses
 Status | Code | Description
@@ -48,7 +48,7 @@ console.log('Bot is online and ready');
 let server_count = client.guilds.cache.size;
 let api_key = 'SOME_TOKEN' // Your infinity bot list API Token generated on the bots page (owner only)
 
-fetch(`https://infinitybotlist.com/api/bots/bot-id-here`, {
+fetch(`https://api.infinitybots.xyz/bot/:botID`, {
             method: "POST",
             headers: {
                 "authorization": "api_key",
@@ -81,7 +81,7 @@ console.log('Bot is online and ready');
 let server_count = client.guilds.size;
 let api_key = 'SOME_TOKEN' // Your infinity bot list API Token generated on the bots page (owner only)
 
-fetch(`https://infinitybotlist.com/api/bots/bot-id-here`, {
+fetch(`https://api.infinitybots.xyz/bot/:botID`, {
             method: "POST",
             headers: {
                 "authorization": "api_key",
@@ -101,7 +101,7 @@ client.login("Some_Bot_Token") // Not required (Remember this is an example)
 
 ## Get method
 
-<Route method="GET" path="/api/bots/:botid/info" /> 
+<Route method="GET" path="/bot/:botid/info" /> 
 
 ---
 
@@ -116,7 +116,7 @@ Not Found | 404 | Couldn't find bot |
 ###### GET Example
 ```js
 const fetch = require("node-fetch")
-fetch(`https://infinitybotlist.com/api/bots/bot-id-here/info`, {
+fetch(`https://api.infinitybots.xyz/bot/:botID/info`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json"
