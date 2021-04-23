@@ -18,6 +18,7 @@ This it the official documentation site for the [Infinity Bot List](https://infi
 * Coming Soon
 
 ### Netlify Hosting
+* Coming Soon
 
 ---
 
