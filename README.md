@@ -11,6 +11,10 @@ This it the official documentation site for the [Infinity Bot List](https://infi
 --- 
 
 ## Self Hosting
+### Windows
+* Coming Soon
+
+### Linux
 * Coming Soon
 
 ---
