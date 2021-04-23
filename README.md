@@ -1,5 +1,5 @@
 # Inifnity Bots Guide
-* Documentation for the [Infinity Bot List](https://infinitybots.xyz) Website and API
+This it the official documentation site for the [Infinity Bot List](https://infinitybotlist.com) Website and API
 
 --- 
 
