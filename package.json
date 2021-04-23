@@ -1,7 +1,7 @@
 {
-  "name": "guide.infinitybots",
-  "description": "Infinity Bot List",
-  "version": "1.0.0",
+  "name": "docs.botlist.site",
+  "description": "Infinity Bot List Documentation",
+  "version": "1.9.0",
   "author": "ToxicDev",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
