@@ -14,4 +14,4 @@ This it the official documentation site for the [Infinity Bot List](https://infi
 ---
 
 ## Credits
-* Made with ❤️ By @TheRealToxicDev & the Infinity Bot List Community
+* Made with ❤️ By [Toxic Dev](https://toxicdev.me) & the Infinity Bot List Community
