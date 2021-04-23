@@ -2,7 +2,7 @@
   "name": "docs.botlist.site",
   "description": "Infinity Bot List Documentation",
   "version": "1.9.0",
-  "author": "ToxicDev",
+  "author": "TheRealToxicDev",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/free-brands-svg-icons": "^5.9.0",
