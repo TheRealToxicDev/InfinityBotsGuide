@@ -1,8 +1,8 @@
 {
-  "name": "guide.infinitybotlist.com",
+  "name": "docs.botlist.site",
   "short_name": "Infinity Bots Docs",
-  "description": "Search your favourite bot for an exciting start to your server.",
-  "homepage_url": "https://guide.infinitybotlist.com",
+  "description": "Official Documentation for the Infinity Bot List Website and API.",
+  "homepage_url": "https://docs.botlist.site",
   "start_url": "/",
   "background_color": "#496D8F",
   "theme_color": "#6496C4",
