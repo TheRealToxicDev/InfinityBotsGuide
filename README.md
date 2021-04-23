@@ -6,7 +6,7 @@ This it the official documentation site for the [Infinity Bot List](https://infi
 --- 
 
 ## Contributing
-* Coming Soon 
+* [Read Me](./docs/contributing/authoring.md)
 
 --- 
 
