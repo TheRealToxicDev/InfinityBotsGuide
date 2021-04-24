@@ -3,22 +3,27 @@ title: Rules and Requirements
 ---
 
 # Server Rules
-1. This server is mainly `English`. Therefore `English` is the only language that should be spoken
-2. Treat the rest like you would like to be treated.
-3. Do not bring unnecessary drama or discussions.
-4. Do not spam or flood the chat, try to avoid 1 word messages.
-5. Any self advertisement is prohibited.
-6. Swearing is not permitted
-7. Leaking private information from a fellow member is strictly prohibited.
-8. Usage of any NSFW link, image or any other material is strictly prohibited. We want a safe environment for kids as well.
-9. Failing to follow the TOS of Discord is punishable.
-10. Ping any staff member for something not important will lead to get a warn / While on DND / Idle / Offline Status 
-11. Arguing with Staff leads to Warn / Mute / Kick / Ban
-12. Talking about `DDosing` or any illegal activity's will lead to a Mute / Kick / Ban
-13. Any attacks on our website including but not limited to `DDos`, `Fuzzing`, `XXS` will lead to a ban and reported to the authorities
-14. Do Not Minimod (Pretending to be staff).
-15. Abusing any bot in the server will result in a Warn / Mute / Kick / Ban
-16. 
+1. Be friendly and respectful to everyone (especially members unfamiliar with the server)
+2. Follow Infinity Bots and Discord’s Terms of Service, as well as Community Guidelines.
+3. Do not intentionally use characters to ‘hoist’ yourself at the top of the members list. **
+4. Do not discriminate/harass (hate speech, arguing, etc). This includes but is not limited to:**
+  * Other users
+  * Bots
+  * Programming languages
+  * Personal drama
+  * Witch-hunting (Specifically targeting users based off their actions)
+5. No self-promotion/advertising, unless it has been requested by a different user, including but not limited to:
+  * Server invites (providing official Discord guild invites or bot guild invites when requested is allowed) these can be within the guild or in DMs
+  * Youtube/Streams
+  * Begging/asking people to use your product or project (e.g your bot)
+  * Mentioning and publicly announcing your project continuously to gain publicity and or traffic.
+6. Don’t spam, this includes but is not limited to:
+  * Copypastas/generic chain mails
+  * Spam joining voice channels or voice spamming
+  * Spamming messages and or abusing bots
+  * Reacting too quickly, announcement channels are an exception to this rule.
+7. Speak English in all channels excluding support and off topic channels
+
  
 ---
 
