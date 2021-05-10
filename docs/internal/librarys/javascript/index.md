@@ -10,9 +10,9 @@ Along with our Official Module(s) you can use a variety of other packages to int
 You can POST Server and Shard Count stats once every 5 minutes
 
 ###### Rate Limit Structure
-| Route	| Request | Requests Allowed Per 5 Minutes |
+| Route	       | Request  |  Ratelimit   |
 |--------------|----------|--------------|
-/api/bots/:botid | POST | 3 | 
+| /bot/:botid  |  POST    |      3       | 
 
 ---
 
