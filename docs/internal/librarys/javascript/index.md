@@ -1,6 +1,6 @@
 ---
 shortTitle: JavaScript
-title: JavaScript Library
+title: Using Node-Fetch
 ---
 
 This is our official javascript library used for interacting with the Infinity Bots API.
@@ -48,7 +48,7 @@ console.log('Bot is online and ready');
 let server_count = client.guilds.cache.size;
 let api_key = 'SOME_TOKEN' // Your infinity bot list API Token generated on the bots page (owner only)
 
-fetch(`https://api.infinitybots.xyz/bot/:botID`, {
+fetch(`https://api.infinitybotlist.com/bot/:botID`, {
             method: "POST",
             headers: {
                 "authorization": "api_key",
@@ -81,7 +81,7 @@ console.log('Bot is online and ready');
 let server_count = client.guilds.size;
 let api_key = 'SOME_TOKEN' // Your infinity bot list API Token generated on the bots page (owner only)
 
-fetch(`https://api.infinitybots.xyz/bot/:botID`, {
+fetch(`https://api.infinitybotlist.com/bot/:botID`, {
             method: "POST",
             headers: {
                 "authorization": "api_key",
@@ -101,7 +101,7 @@ client.login("Some_Bot_Token") // Not required (Remember this is an example)
 
 ## Get method
 
-<Route method="GET" path="/bot/:botid/info" /> 
+<Route method="GET" path="/bot/:botid" /> 
 
 ---
 
@@ -116,7 +116,7 @@ Not Found | 404 | Couldn't find bot |
 ###### GET Example
 ```js
 const fetch = require("node-fetch")
-fetch(`https://api.infinitybots.xyz/bot/:botID/info`, {
+fetch(`https://api.infinitybotlist.com/bot/:botID`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json"
