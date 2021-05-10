@@ -12,7 +12,7 @@ You can POST Server and Shard Count stats once every 5 minutes
 ###### Rate Limit Structure
 | Route	       | Request  |  Ratelimit   |
 |--------------|----------|--------------|
-| /bot/:botid  |  POST    |      3       | 
+| /bot/:botid  |  POST    | 3 per 5 Mins | 
 
 ---
 
