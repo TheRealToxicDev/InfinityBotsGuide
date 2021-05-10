@@ -2,7 +2,7 @@
 shortTitle: node-fetch
 title: Using Node-Fetch
 ---
-On top of our Official Modules you can use a variety of other packages to interact with our API, node-fetch is one of those packages.
+Along with our Official Module(s) you can use a variety of other packages to interact with our API, node-fetch is one of those packages.
 
 ---
 
