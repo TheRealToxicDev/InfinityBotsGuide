@@ -13,8 +13,11 @@ This is our Official NPM Module used for interacting with the Infinity Bots API.
 
 ## Hard Coded Install
 Append the Line below to your package.json
+
+• Replace `VERSION` with whichever Version you want to use
+
 ```
-    "infinityapi.js": "^VERSION", // Replace `VERSION` with whichever Version you want to use
+    "infinityapi.js": "^VERSION",
 ```
 
 • Save and profit
