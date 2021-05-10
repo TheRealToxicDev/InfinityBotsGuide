@@ -2,8 +2,7 @@
 shortTitle: node-fetch
 title: Using Node-Fetch
 ---
-
-This is our official javascript library used for interacting with the Infinity Bots API.
+On top of our Official Modules you can use a variety of other packages to interact with our API, node-fetch is one of those packages.
 
 ---
 
