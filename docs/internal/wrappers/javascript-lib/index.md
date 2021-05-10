@@ -1,20 +1,20 @@
 ---
-shortTitle: JavaScript
-title: JavaScript Wrapper
+shortTitle: infinityapi.js
+title: Our NPM Module/Wrapper
 ---
 
-This is our official javascript library used for interacting with the Infinity Bots API.
+This is our Official NPM Module used for interacting with the Infinity Bots API.
 
 
 ## Installation
-`npm i ibl-api@latest`
+`npm i infinityapi.js@latest`
 
 ---
 
 ## Hard Coded Install
 Append the Line below to your package.json
 ```
-    "ibl-api": "^VERSION",
+    "infinityapi.js": "^VERSION", // Replace `VERSION` with whichever Version you want to use
 ```
 
 • Save and profit
