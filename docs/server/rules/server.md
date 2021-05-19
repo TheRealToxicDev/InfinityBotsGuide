@@ -1,4 +1,5 @@
 ---
+shortTitle: Server Rules
 title: Server Rules
 ---
 
