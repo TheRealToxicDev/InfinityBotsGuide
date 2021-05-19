@@ -11,14 +11,8 @@ This it the official documentation site for the [Infinity Bot List](https://infi
 --- 
 
 ## Self Hosting
-### Windows Hosting
-* Coming Soon
-
-### Linux Hosting
-* Coming Soon
-
-### Netlify Hosting
-* Coming Soon
+* We will not offer support or assist you in self hosting this site.
+* This Docs Site is Open-Source for our Community Members who want to contribute.
 
 ---
 
