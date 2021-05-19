@@ -2,6 +2,7 @@
 shortTitle: Alt Accounts
 title: Alternate Accounts
 ---
+
 Generally speaking, having multiple accounts (commonly referred to as alts) on this server is frowned upon. 
 While not completely against the rules, sometimes you want to be anonymous and want to lurk without drawing attention. 
 So long as your alt does not disrupt the decorum and general atmosphere of the server, you may have multiple accounts here. 
