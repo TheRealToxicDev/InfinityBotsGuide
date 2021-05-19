@@ -35,7 +35,7 @@ Get too many warnings, you’ll be banned.
 ---
 
 ## Breach or Terms
-If a user breaks Discord Terms Of Service (https://discord.com/terms) they will be banned without any warns!
+If a user breaks the Discord [Terms Of Service](https://discord.com/terms) they will be banned without any warns!
 
 ---
 
