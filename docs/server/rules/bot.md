@@ -13,7 +13,7 @@ On your bot page, you are not allowed to:
 
 ## Requirements
 All bots listed on or added to our website should respect the following guidelines: 
-  1. Abide by Infinity Bots [Terms of Service](https://infinitybotlist.com/terms), Discord’s [Terms of Service](https://discord.com/terms), API rate limits and [Developer Terms](https://discord.com/developers/docs/legal). 
+  1. Abide by Infinity Bots [Terms of Service](https://infinitybotlist.com/terms), Discord’s [Terms of Service](https://discord.com/terms), [API Rate Limits](https://discord.com/developers/docs/topics/rate-limits) and [Developer Terms](https://discord.com/developers/docs/legal). 
   2. Must be online during review, public and invitable
   3. The main feature and majority of the commands must work
   4. Keep NSFW content (including, but not limited: links that source to pornographic material) inside of NSFW channels
