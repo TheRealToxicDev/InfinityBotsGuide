@@ -46,7 +46,7 @@ Status | Code | Description
 Success | 200 | Your stats have been posted |
 Not Found | 404 | Couldn't find bot |
 Rate Limit | 429 | You're being ratelimited one request per 5 mins |
-Internal Server Error | 500 | An error occurred, Contact Dexter |
+Internal Server Error | 500 | An error occurred, Contact Toxic Dev |
 Error | 400 | Something went wrong here. | 
 
 
