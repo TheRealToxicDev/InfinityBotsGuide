@@ -12,4 +12,4 @@ We know you have your choice of servers and we thank you for joining ours if you
    6. Please note that while you are welcome here, we reserve the right to limit your interactions. For example, even if you are a bot dev, we may block access to dev related channels. Or we may make it so that you cannot join VC.
 
 We’re not asking much here and believe this balances the desire to hang out as well as maintaining transparency.
-You are welcome to use an alt account to maintain anonymity, so long as these alts follow the policy outlined in “Alts/Multiple Accounts” below. However, using an alt account to circumvent this policy is not only rude but bad form.
+You are welcome to use an alt account to maintain anonymity, so long as these alts follow the policy outlined [here](). However, using an alt account to circumvent this policy is not only rude but bad form.
