@@ -11,19 +11,6 @@ This is our Official NPM Module used for interacting with the Infinity Bots API.
 
 ---
 
-## Hard Coded Install
-Append the Line below to your package.json
-
-• Replace `VERSION` with whichever Version you want to use
-
-```
-    "infinityapi.js": "^VERSION",
-```
-
-• Save and profit
-
----
-
 ## Ratelimits
 You can POST Server and Shard Count stats once every 5 minutes
 
@@ -52,7 +39,7 @@ Error | 400 | Something went wrong here. |
 
 ###### Constructor
 ```
-Infinity(client, token)
+InfinityBots(client, token)
 ```
 
 ---
@@ -71,7 +58,7 @@ client | Snowflake | No | The Client ID for the bot you want to post stats to.
 const Discord = require("discord.js")
 const client = new Discord.Client()
 const prefix = "ibltest.";
-const Infinity = require("infinityapi.js")
+const InfinityBots = require("infinityapi.js")
 const ibl = new Infinity(client.user.id, "bot-auth-token")
 
 client.on("ready", () => {
