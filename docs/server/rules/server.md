@@ -1,6 +1,6 @@
 ---
 shortTitle: Server Rules
-title: Server Rules
+title: Discord Server Rules
 ---
 
 1. Be friendly and respectful to everyone (especially members unfamiliar with the server)
