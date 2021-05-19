@@ -58,62 +58,38 @@ IBL(client, token)
 ---
 
 ###### POST Example
+
 ```js
-const { Client } = require('discord.js');
-const client = new Client();
-const ibl = require('IBL-api');
+const Discord = require("discord.js")
+const client = new Discord.Client()
+const prefix = "ibltest.";
+const Infinity = require("infinityapi.js")
+const ibl = new Infinity(client.user.id, "bot-auth-token")
 
-const Poster = new ibl.Poster(client, "AuthToken");
+client.on("ready", () => {
+console.log(`Logged in as ${client.user.tag}.`)
+setInterval(() => {
+   ibl.post(client.guilds.cache.size, '0') // Server Count and 0 Shards
+  })
+}, 300000) //5 Minutes in MS
 
-Poster.autoPost({
-  botID: "474745745457", // Your botID
-  timerLoop: 300000 // This is in MS, this is default to 5 minutes
-}, true);
+client.on("message", message => {
+    if(message.author.bot) return
+    if(message.content == prefix + "ping"){
+        message.reply(`Pong! it took ${client.ws.ping}`)
+    }
+})
 
-client.login("token");
+client.login("token")
+
 ```
 
 ---
 
 ## Get method
-
-<Route method="GET" path="/api/bots/:botid/info" /> 
-<Route method="GET" path="/api/users/:userID" /> 
+* Coming Soon
 
 ---
-
-###### Response
-Status | Code | Description
-|---------- |----------|----------|
-Success | 200 | GET Request Successful |
-Not Found | 404 | Couldn't find bot |  
-
----
-
-###### Constructor
-```
-IBL(client, token)
-```
-
-###### GET Example
-```js
-const ibl = require('IBL-api'); // We import our api
-
-// Coming Soon!
-
-```
 
 ## Custom Webhooks
-
-###### Constructor
-```
-const IBL = new infinity("botID", "botAuth", {webPort: 3001, webPath: "/IBLhook", webAuth: "Auth you placed in custom webhooks"});
-```
-
-###### Webhooks
-```js
-const infinity = require("ibl-api") // We import our api
-
-// Coming Soon!
-
-```
+* Coming Soon
