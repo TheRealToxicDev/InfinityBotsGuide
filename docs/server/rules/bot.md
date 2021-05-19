@@ -29,5 +29,5 @@ All bots listed on or added to our website should respect the following guidelin
   14. Bots with commands allowing a user to DM another user must either state the author or that it was anonymous; in addition to having a block or opt-out feature.
   15. Bots that provide voting reminders must allow users to unsubscribe from them and must specify how to do so in the notification
   16. Must not be hosted on BDFD, Bot Ghost or any other "Copy Paste" bot maker.
-  17. Bots should not have a series of repeated commands, of course bots who have a designated purpose is fine but bots who just repeat the command over and over again with different ways of using them in hopes to get the bot approved will be denied. Example of a bot that does this can be found here: <https://infinitybotlist.com/bots/835997853263462461/>
+  17. Bots should not have a series of repeated commands, of course bots who have a designated purpose is fine but bots who just repeat the command over and over again with different ways of using them in hopes to get the bot approved will be denied. Example of a bot that does this can be found [here](https://infinitybotlist.com/bots/835997853263462461)
   18. As per Discord's updated Terms of Service bots who offer or provide a Invite Reward based system or feature are strictly prohibited.
