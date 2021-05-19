@@ -1,6 +1,6 @@
 ---
-shortTitle: node-fetch
-title: Using Node-Fetch
+shortTitle: javascript
+title: Javascript
 ---
 Along with our Official Module(s) you can use a variety of other packages to interact with our API, node-fetch is one of those packages.
 
