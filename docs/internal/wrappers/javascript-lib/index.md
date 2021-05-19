@@ -1,6 +1,6 @@
 ---
 shortTitle: infinityapi.js
-title: Our NPM Module/Wrapper
+title: Javascript Wrapper
 ---
 
 This is our Official NPM Module used for interacting with the Infinity Bots API.
