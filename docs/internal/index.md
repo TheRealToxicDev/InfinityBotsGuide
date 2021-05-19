@@ -1,6 +1,6 @@
 ---
 shortTitle: API Docs
-title: API
+title: API Documentation
 ---
 
 <Overview />
