@@ -13,6 +13,7 @@ This it the official documentation site for the [Infinity Bot List](https://infi
 ## Self Hosting
 * We will not offer support or assist you in self hosting this site.
 * This Docs Site is Open-Source for our Community Members who want to contribute.
+* If you're capable of running a React Site on Netlify then you're more then welcome to use it.
 
 ---
 
