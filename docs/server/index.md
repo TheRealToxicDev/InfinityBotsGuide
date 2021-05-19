@@ -1,9 +1,9 @@
 ---
 shortTitle: Server Docs
-title: Server Rules
+title: Server Docs
 ---
 
-Server Rules
+Here you can find info on our Discord Serevr including our Server Rules, Guidelines and more.
 
 ---
 
