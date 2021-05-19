@@ -52,8 +52,16 @@ Error | 400 | Something went wrong here. |
 
 ###### Constructor
 ```
-IBL(client, token)
+Infinity(client, token)
 ```
+
+---
+
+###### Required Params
+Parameter | Type | Optional | Description
+|--------------|----------|--------------|--------------|
+token | String | No | The API Auth Token found on your bots page.
+client | Snowflake | No | The Client ID for the bot you want to post stats to.
 
 ---
 
