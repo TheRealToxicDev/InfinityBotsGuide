@@ -10,5 +10,6 @@ We know you have your choice of servers and we thank you for joining ours if you
    4. Admins, moderators, and other staff members of these servers are respectfully requested to apply for Partnership prior to creating an introduction. 
    5. Generally speaking, there would be concern that you are here solely to recruit members to your server, However, we also know that you may want to go some place where “you’re not in charge”. All we ask is that you be honest with us so that your intentions are clear.
    6. Please note that while you are welcome here, we reserve the right to limit your interactions. For example, even if you are a bot dev, we may block access to dev related channels. Or we may make it so that you cannot join VC.
-   7. We’re not asking much here and believe this balances the desire to hang out as well as maintaining transparency. 
-   8. You are welcome to use an alt account to maintain anonymity, so long as these alts follow the policy outlined in “Alts/Multiple Accounts” below. However, using an alt account to circumvent this policy is not only rude but bad form.
+
+We’re not asking much here and believe this balances the desire to hang out as well as maintaining transparency.
+You are welcome to use an alt account to maintain anonymity, so long as these alts follow the policy outlined in “Alts/Multiple Accounts” below. However, using an alt account to circumvent this policy is not only rude but bad form.
