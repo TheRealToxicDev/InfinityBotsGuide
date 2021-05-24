@@ -9,7 +9,7 @@ Webhooks will send a `POST` request to a URL or a Discord Webhook of your choice
 --- 
 
 ## Custom Webhooks
-For Users with a Custom Webhook Server you can start by setting up your webhook URL in the edit form of your bot on our site, it can be found at https://infinitybotlist.com/bots/:botID/edit under the `Custom Webhook Url` section of the edit form. Once you've entered the URL you want the webhook to be sent to and provide a secret, you're all set! If you need help setting up custom webhooks inside of your bot or web server don't be afraid to ask in our [discord server](https://infinitybotlist.com/join) in the `》api-support` channel.
+For Users with a Custom Webhook Server you can start by setting up your webhook URL in the edit form of your bot on our site, it can be found at `https://infinitybotlist.com/bots/:botID/edit` under the `Custom Webhook Url` section of the edit form. Once you've entered the URL you want the webhook to be sent to and provide a secret, you're all set! If you need help setting up custom webhooks inside of your bot or web server don't be afraid to ask in our [discord server](https://infinitybotlist.com/join) in the `》api-support` channel.
 
 ---
 
