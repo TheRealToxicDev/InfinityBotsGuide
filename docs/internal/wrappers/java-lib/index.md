@@ -84,10 +84,14 @@ ibl.autoPostStats(1, TimeUnit.HOURS);
 IBLClient ibl = new IBLClient.Builder(jda, "IBL_TOKEN", executor);
 ```
 
-**Note** : If you are using `Discord4J` and `Javacord` , you cannot use `IBLClient`.<br>
+<Alert type="warning">
+
+**Note** : If you are using `Discord4J` and `Javacord` , you cannot use `IBLClient`.<br />
 The libraries will be added soon... 
 
+</Alert>
+
 ## Get method
-- Coming Soon...
+*Coming Soon...
 
 [releases]:https://github.com/Zone-Infinity/IBL4J/releases/ 
