@@ -25,7 +25,7 @@ You can POST Server and Shard Count stats once every 5 minutes
 
 ## Post Method
 
-<Route method="POST" path="/api/bots/:botid" auth /> 
+<Route method="POST" path="/bot/:botid" auth /> 
 
 ###### Responses
 Status | Code | Description
@@ -81,8 +81,84 @@ client.login("token")
 
 ---
 
-## Get method
-* Coming Soon
+## Get Bot
+
+<Route method="POST" path="/bot/:botid" /> 
+
+---
+
+## Get User
+
+<Route method="POST" path="/user/:userid" /> 
+
+###### Constructor
+```
+Infinity()
+```
+
+---
+
+###### Required Params
+Parameter | Type | Optional | Description
+|--------------|----------|--------------|--------------|
+userID | Snowflake | No | The ID of the User to GET info for.
+
+---
+
+###### Arguments
+Parameter | Type | Optional | Description
+|--------------|----------|--------------|--------------|
+name | String | Yes | The bots username.
+owner | Snowflake | Yes | The bot owners ID.
+staff | String | Yes | The IDs of all additional owners (if any).
+Prefix | String | Yes | The bots listed prefix(s).
+short | String | Yes | The bots short description (Shown on cards).
+long | String | Yes | The bots long description (Can be markdown).
+votes | Number | Yes | The bots total number of upvotes.
+invites | Number | Yes | The bots total number of invites.
+premium | Boolean | Yes | The bots premium status | true or false.
+votes | Number | Yes | The bots total number of upvotes.
+support | String | Yes | Link to the bots support server.
+website | String | Yes | Link to the bots website.
+github | String | Yes | Link to the bots github.
+donate | String | Yes | Link to donate to the bot.
+tags | String | Yes | List of the bots tags.
+library | String | Yes | The library the bot was made with.
+servers | Number | Yes | Number of total servers the bot is in.
+shards | Number | Yes | Number of total shards the bot has.
+
+
+--- 
+
+### Example
+```js
+const Discord = require("discord.js")
+const client = new Discord.Client()
+const prefix = "!";
+const IBL = require("infinityapi.js")
+const stats = new IBL()
+ 
+client.on("message", message => { 
+    if(message.author.bot) return;
+    if(message.channel.type !== "text") return;
+    if(!message.content.toLowerCase().startsWith(prefix)) return;
+    if(message.content == (prefix + "ping")){
+        message.reply(`Pong ${client.ws.ping}ms`)
+    }
+     if(message.content == (prefix + "stats")){
+        stats.get_bot(client.user.id, function(data){
+        let embed = new MessageEmbed()
+        .setTitle(data.name)
+        .addField("Total Votes", data.votes);
+
+        message.channel.send(embed)
+        })
+    }
+})
+ 
+ 
+client.login("token")
+```
 
 ---
 
