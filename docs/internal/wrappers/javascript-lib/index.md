@@ -88,7 +88,7 @@ client.login("token")
 ### Constructor
 
 ```
-Infinity()
+Infinity(botID)
 ```
 
 ###### Arguments
@@ -154,7 +154,7 @@ client.login("token")
 
 ###### Constructor
 ```
-IBL(client, token)
+IBL(userID)
 ```
 
 ---
