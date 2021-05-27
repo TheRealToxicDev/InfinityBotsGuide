@@ -85,25 +85,11 @@ client.login("token")
 
 <Route method="POST" path="/bot/:botid" /> 
 
----
+### Constructor
 
-## Get User
-
-<Route method="POST" path="/user/:userid" /> 
-
-###### Constructor
 ```
 Infinity()
 ```
-
----
-
-###### Required Params
-Parameter | Type | Optional | Description
-|--------------|----------|--------------|--------------|
-userID | Snowflake | No | The ID of the User to GET info for.
-
----
 
 ###### Arguments
 Parameter | Type | Optional | Description
@@ -130,7 +116,7 @@ shards | Number | Yes | Number of total shards the bot has.
 
 --- 
 
-### Example
+###### GET Example
 ```js
 const Discord = require("discord.js")
 const client = new Discord.Client()
@@ -159,6 +145,55 @@ client.on("message", message => {
  
 client.login("token")
 ```
+
+---
+
+## Get User
+
+<Route method="POST" path="/user/:userid" /> 
+
+###### Constructor
+```
+IBL(client, token)
+```
+
+---
+
+###### GET Example
+```js
+const Discord = require("discord.js")
+const client = new Discord.Client()
+const prefix = "!";
+const IBL = require("infinityapi.js")
+const stats = new IBL()
+ 
+client.on("message", message => {
+    if(message.author.bot) return;
+    if(message.channel.type !== "text") return;
+    if(!message.content.toLowerCase().startsWith(prefix)) return;
+    if(message.content == (prefix + "ping")){
+        message.reply(`Pong ${client.ws.ping}ms`)
+    }
+     if(message.content == (prefix + "stats")){
+        stats.get_user("SOME_USER_ID", function(data){
+        let embed = new MessageEmbed()
+        .setTitle(`Info about ${data.username}`)
+        .setDescription('The info here is fetched from the Infinity Bots API')
+        .addField("Bio", data.about, true)
+        .addField("Certified User?", data.certified_dev, true)
+        .addField("GitHub", data.github, true)
+        .addField("Website", data.website, true)
+        .setFooter(`Requested By: ${message.author.username}`)
+ 
+        message.channel.send(embed)
+        })
+    }
+})
+ 
+ 
+client.login("token")
+```
+
 
 ---
 
