@@ -23,7 +23,7 @@ You can POST Server and Shard Count stats once every 5 minutes
 
 ---
 
-## Post Method
+## POST Method
 
 <Route method="POST" path="/bot/:botid" auth /> 
 
@@ -81,9 +81,9 @@ client.login("token")
 
 ---
 
-## Get Bot
+## GET Bot
 
-<Route method="POST" path="/bot/:botid" /> 
+<Route method="GET" path="/bot/:botid" /> 
 
 ### Constructor
 
@@ -148,9 +148,9 @@ client.login("token")
 
 ---
 
-## Get User
+## GET User
 
-<Route method="POST" path="/user/:userid" /> 
+<Route method="GET" path="/user/:userid" /> 
 
 ###### Constructor
 ```
