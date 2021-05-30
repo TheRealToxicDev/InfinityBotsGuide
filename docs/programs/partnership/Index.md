@@ -8,7 +8,7 @@ All partners should make sure their Services, Bots etc meet the following Guidli
 ---
 
 ## How to apply
-DM a Staff Manager or Head Staff member and they will be able to help from there!
+Open a ticket in our `》open-a-ticket` channel, Once you have a ticket open navigate to your ticket channel and state that you would like to partner.
 
 ## Partnered Server Requirements
 All Partnered Servers should:
