@@ -18,7 +18,7 @@ All Partnered Services should:
 - Not be a NSFW Friendly or Promotion based service.
 - Provide a Safe, Friendly and Neutral support environment.
 - Owner(s) or Managers should remain a Active Member of our Discord Server.
-- Not provide any Hacking, Cracking or Modding Tools or Services with exceptions to Company's that allow the use of said Tools or Services.
+- Not provide any Hacking, Cracking or Modding Tools or Services with exceptions to Company's and/or Games, Platforms that allow the use of said Tools or Services.
 
 ---
 
