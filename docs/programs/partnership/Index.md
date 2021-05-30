@@ -8,15 +8,16 @@ All partners should make sure their Services, Bots etc meet the following Guidli
 ---
 
 ## How to apply
-DM <@!713632188863610911> and they will be able to help from there!
+DM a Staff Manager or Head Staff member and they will be able to help from there!
 
-## Partner Requirements
-➥ 300 Members
-➥ Non NSFW
-➥ Safe & Friendly Server
-➥ Good Amount Of Pings
-➥ Active Server
-➥ Partner Must Stay In Server
+## Partnered Server Requirements
+All Partnered Servers should:
+- Have a minimum of 300 Members not including Bots.
+- Not be a NSFW Friendly or Promotion based server.
+- Be a Safe, Friendly and Neutral environment.
+- Provide a Proper System for Pinging Members (Ie: Update Pings etc instead of @everyone)
+- Be a Active Server with a decent amount of Daily User Interactions
+- Partnered Server Owner(s) should remain a Active Member of our Server.
 
 ## Partnered Bot Requirements
 All partnered bots should:
@@ -33,5 +34,6 @@ All partnered bots should:
 
 ## Partnership Guidelines
 - Partner Must be a active member of our Discord Server
-- Partners May Be Dropped If Breaking Any Of The Requirements
-- Partner Ads Rotation
+- Partners May Be Dropped If found to be Breaking Any Of The Requirements
+- Partners should follow our [Terms of Service](https://infinitybotlist.com/terms) as well as [Discords](https://discord.com/terms)
+- Partnered Servers should be in Compliance with the Discord [Server Guidelines](https://discord.com/guidelines)
