@@ -98,18 +98,20 @@ Parameter | Type | Optional | Description
 |--------------|----------|--------------|--------------|
 name | String | Yes | The bots username.
 owner | Snowflake | Yes | The bot owners ID.
-staff | String | Yes | The IDs of all additional owners (if any).
+additional_owners | Array | Yes | The IDs of all additional owners (if any).
 Prefix | String | Yes | The bots listed prefix(s).
 short | String | Yes | The bots short description (Shown on cards).
 long | String | Yes | The bots long description (Can be markdown).
 votes | Number | Yes | The bots total number of upvotes.
 invites | Number | Yes | The bots total number of invites.
+certified | Boolean | Yes | The bots certified status | true or false.
 premium | Boolean | Yes | The bots premium status | true or false.
 votes | Number | Yes | The bots total number of upvotes.
 support | String | Yes | Link to the bots support server.
 website | String | Yes | Link to the bots website.
 github | String | Yes | Link to the bots github.
 donate | String | Yes | Link to donate to the bot.
+invite | String | Yes | The bots full invite link.
 tags | String | Yes | List of the bots tags.
 library | String | Yes | The library the bot was made with.
 servers | Number | Yes | Number of total servers the bot is in.
