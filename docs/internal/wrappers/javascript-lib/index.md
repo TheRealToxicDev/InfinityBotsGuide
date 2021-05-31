@@ -104,6 +104,7 @@ short | String | Yes | The bots short description (Shown on cards).
 long | String | Yes | The bots long description (Can be markdown).
 votes | Number | Yes | The bots total number of upvotes.
 invites | Number | Yes | The bots total number of invites.
+views | Number | Yes | Total Number of the bots Page Views.
 certified | Boolean | Yes | The bots certified status | true or false.
 premium | Boolean | Yes | The bots premium status | true or false.
 votes | Number | Yes | The bots total number of upvotes.
