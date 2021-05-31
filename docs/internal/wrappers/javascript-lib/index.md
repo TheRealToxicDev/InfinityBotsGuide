@@ -61,7 +61,7 @@ const Discord = require("discord.js")
 const client = new Discord.Client()
 const prefix = "ibltest.";
 const InfinityBots = require("infinityapi.js")
-const ibl = new Infinity(client.user.id, "bot-auth-token")
+const ibl = new InfinityBots(client.user.id, "bot-auth-token")
 
 client.on("ready", () => {
 console.log(`Logged in as ${client.user.tag}.`)
