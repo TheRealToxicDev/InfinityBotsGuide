@@ -49,6 +49,8 @@ Parameter | Type | Optional | Description
 |--------------|----------|--------------|--------------|
 token | String | No | The API Auth Token found on your bots page.
 client | Snowflake | No | The Client ID for the bot you want to post stats to.
+shards | Number | No | The Bots shard count to be posted to our website. | 0 will be replaced with `N/A`.
+servers | Number | No | The Bots Server count to be posted to our website. | 0 will be replaced with `N/A`.
 
 ---
 
