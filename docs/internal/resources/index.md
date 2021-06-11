@@ -1,6 +1,6 @@
 ---
 shortTitle: Resources
-title: API Resources
+title: Resources
 ---
 
 Common resources offered via our Website or API.
