@@ -1,6 +1,6 @@
 ---
 shortTitle: Topics
-title: API Topics
+title: Topics
 ---
 
 Common topics and information regarding our API.
