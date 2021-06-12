@@ -26,8 +26,8 @@ Basically just a Cheat Sheet for using and Interacting with our API.
 ###### Acceptable HEADERS
 | Field     | Type        | Description                                                                        |
 | --------- | ----------- | ---------------------------------------------------------------------------------- |
-| authorization   | `String`    | Server Count for the Provided Bot.                                           |
-| Content-Type    | `String`    | Shard Count for the Provided Bot.                                            |
+| authorization   | `String`    | The Bots IBL API Authorization Token.                                        |
+| Content-Type    | `String`    | The Content-Type of the Data should be (application/json).                                            |
 
 ---
 
