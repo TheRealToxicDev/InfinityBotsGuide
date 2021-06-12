@@ -7,15 +7,41 @@ Basically just a Cheat Sheet for using and Interacting with our API.
 
 --- 
 
-## POST Methods
+# POST Methods
 
+## Available Endpoints
 
+<Route method="POST" path="/bot/:botid" auth /> 
+
+---
+
+###### Acceptable Parameters (BODY)
+| Field     | Type        | Description                                                                        |
+| --------- | ----------- | ---------------------------------------------------------------------------------- |
+| servers   | `String`    | Server Count for the Provided Bot.                                                 |
+| shards    | `String`    | Shard Count for the Provided Bot.                                                  |
 
 --- 
 
-## GET Methods
+###### Acceptable HEADERS
+| Field     | Type        | Description                                                                        |
+| --------- | ----------- | ---------------------------------------------------------------------------------- |
+| authorization   | `String`    | Server Count for the Provided Bot.                                           |
+| Content-Type    | `String`    | Shard Count for the Provided Bot.                                            |
 
-## Get User Data
+---
+
+# GET Methods
+
+## Available Endpoints
+
+<Route method="GET" path="/user/:userID" /> 
+
+<Route method="GET" path="/bot/:botID" /> 
+
+---
+
+###### Get User Data
 | Field     | Type        | Description                                                                                         |
 | --------- | ----------- | --------------------------------------------------------------------------------------------------- |
 | nickname  | `String`    | Nickname for the User on our Website.                                                 |
@@ -28,7 +54,7 @@ Basically just a Cheat Sheet for using and Interacting with our API.
 
 --- 
 
-#### GET Bot Data
+###### GET Bot Data
 | Field     | Type        | Description                                                                                         |
 | --------- | ----------- | --------------------------------------------------------------------------------------------------- |
 | name      | `String`    | Discord Username of the Bot.                                                         |
