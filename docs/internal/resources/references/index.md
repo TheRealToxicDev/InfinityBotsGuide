@@ -7,7 +7,7 @@ Basically just a Cheat Sheet for using and Interacting with our API.
 
 --- 
 
-## POST Methods
+## POST Requests
 
 ### Available Endpoints
 
@@ -31,7 +31,7 @@ Basically just a Cheat Sheet for using and Interacting with our API.
 
 ---
 
-## GET Methods
+## GET Requests
 
 ### Available Endpoints
 
@@ -41,7 +41,7 @@ Basically just a Cheat Sheet for using and Interacting with our API.
 
 ---
 
-###### Get User Data
+###### GET User Data
 | Field     | Type        | Description                                                                                         |
 | --------- | ----------- | --------------------------------------------------------------------------------------------------- |
 | nickname  | `String`    | Nickname for the User on our Website.                                                 |
