@@ -1,7 +1,7 @@
 # Infinity Bots Guide
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0b1de5fd-c932-4128-85b3-5268a61bfc7e/deploy-status)](https://app.netlify.com/sites/confident-panini-145ce5/deploys)
 
-This it the official documentation site for the [Infinity Bot List](https://infinitybotlist.com) Website and API
+Official documentation site for the [Infinity Bot List](https://infinitybotlist.com) Website and API made using React and Bootstrap
 
 --- 
 
