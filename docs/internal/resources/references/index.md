@@ -7,9 +7,9 @@ Basically just a Cheat Sheet for using and Interacting with our API.
 
 --- 
 
-# POST Methods
+## POST Methods
 
-## Available Endpoints
+### Available Endpoints
 
 <Route method="POST" path="/bot/:botid" auth /> 
 
@@ -31,9 +31,9 @@ Basically just a Cheat Sheet for using and Interacting with our API.
 
 ---
 
-# GET Methods
+## GET Methods
 
-## Available Endpoints
+### Available Endpoints
 
 <Route method="GET" path="/user/:userID" /> 
 
