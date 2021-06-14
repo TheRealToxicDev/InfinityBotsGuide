@@ -57,9 +57,29 @@ Basically just a Cheat Sheet for using and Interacting with our API.
 ###### GET Bot Data
 | Field     | Type        | Description                                                                                         |
 | --------- | ----------- | --------------------------------------------------------------------------------------------------- |
-| name      | `String`    | Discord Username of the Bot.                                                         |
-| tags      | `String`    | List of the Bots Tags (Moderation etc).                                                   |
-| prefix    | `String`    | The Bots Prefix used to trigger Discord Messages.                                                                   |
-| owner     | `String`    | Username of the Bots Main Owner/Developer.                                                               |
+| name      | `String`    | Discord Username of the Bot.                                                                        |
+| tags      | `String`    | List of the Bots Tags (Moderation etc).                                                             |
+| prefix    | `String`    | The Bots Prefix used to trigger Discord Messages.                                                   |
+| owner     | `String`    | Username of the Bots Main Owner/Developer.                                                          |
+| additional_owners       | `Array`    | Array of Additional Owner IDs.                                                         |
+| staff_bot | `Boolean`   | The Bots Staff Status in our Discord Server.                                                        |
+| short     | `String`    | The Bots Short Description displayed on our Website.                                                |
+| long      | `String`    | The Bots Long Description displayed on our Website.                                                 |
+| nsfw      | `Boolean`   | If the Bot contains NSFW Features (True or False).                                                  |
+| library   | `String`    | The Lib/Library that the Bot is made in (Ex: Javascript).                                           |
+| premium   | `Boolean`   | The Bots Premium Status on our Website.                                                             |
+| certified | `Boolean`   | The Bots Certified Status on our Website.                                                           |
+| servers   | `Integer`   | Number of Servers the Bot is in.                                                                    |
+| shards    | `Integer`   | Numbet of Shards the Bot has.                                                                       |
+| votes     | `Number`    | Number of Upvotes that the Bot has.                                                                 |
+| views     | `Number`    | Number of Views the Bot has (Not Unique).                                                           |
+| invites   | `Number`    | Number of Invites the Bot has.                                                                      |
+| website   | `String`    | The Bots Official Website:l/Dashboard.                                                        |
+| donate    | `String`    | The Bots Patreon, PayPal or Other Donation Link.                                                        |
+| support   | `String`    | The Bots Support Server Invite Link.                                                        |
+| github    | `String`    | The Bot or Developers GitHub Page.                                                        |
+| banner    | `String`    | The Bots Custom Banner Link.                                                        |
+| invite    | `String`    | The Bots Discord Invite URL.                                                        |
+
 
 ---
