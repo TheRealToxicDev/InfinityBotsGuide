@@ -74,12 +74,12 @@ Basically just a Cheat Sheet for using and Interacting with our API.
 | votes     | `Number`    | Number of Upvotes that the Bot has.                                                                 |
 | views     | `Number`    | Number of Views the Bot has (Not Unique).                                                           |
 | invites   | `Number`    | Number of Invites the Bot has.                                                                      |
-| website   | `String`    | The Bots Official Website:l/Dashboard.                                                        |
-| donate    | `String`    | The Bots Patreon, PayPal or Other Donation Link.                                                        |
-| support   | `String`    | The Bots Support Server Invite Link.                                                        |
-| github    | `String`    | The Bot or Developers GitHub Page.                                                        |
-| banner    | `String`    | The Bots Custom Banner Link.                                                        |
-| invite    | `String`    | The Bots Discord Invite URL.                                                        |
+| website   | `String`    | The Bots Official Website:l/Dashboard.                                                              |
+| donate    | `String`    | The Bots Patreon, PayPal or Other Donation Link.                                                    |
+| support   | `String`    | The Bots Support Server Invite Link.                                                                |
+| github    | `String`    | The Bot or Developers GitHub Page.                                                                  |
+| banner    | `String`    | The Bots Custom Banner Link.                                                                        |
+| invite    | `String`    | The Bots Discord Invite URL.                                                                        |
 
 
 ---
