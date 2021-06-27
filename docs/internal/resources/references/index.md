@@ -39,9 +39,14 @@ Basically just a Cheat Sheet for using and Interacting with our API.
 
 <Route method="GET" path="/bot/:botID" /> 
 
+<Route method="GET" path="/votes/:botID" /> 
+
 ---
 
-###### GET User Data
+## Get User Data
+Display some info about a Specified User.
+
+###### Flags
 | Field     | Type        | Description                                                                                         |
 | --------- | ----------- | --------------------------------------------------------------------------------------------------- |
 | nickname  | `String`    | Nickname for the User on our Website.                                                 |
@@ -54,7 +59,10 @@ Basically just a Cheat Sheet for using and Interacting with our API.
 
 --- 
 
-###### GET Bot Data
+## GET User Data
+Display some info about a Specified Bot.
+
+###### Flags
 | Field     | Type        | Description                                                                                         |
 | --------- | ----------- | --------------------------------------------------------------------------------------------------- |
 | name      | `String`    | Discord Username of the Bot.                                                                        |
@@ -80,6 +88,18 @@ Basically just a Cheat Sheet for using and Interacting with our API.
 | github    | `String`    | The Bot or Developers GitHub Page.                                                                  |
 | banner    | `String`    | The Bots Custom Banner Link.                                                                        |
 | invite    | `String`    | The Bots Discord Invite URL.                                                                        |
+
+
+---
+
+## GET Vote Data
+Display your bot's 5 Most Recent Votes by User ID
+
+###### Flags
+| Field     | Type        | Description                                                                                         |
+| --------- | ----------- | --------------------------------------------------------------------------------------------------- |
+| bot_votes | `Array`     | Array of the last 5 Discord IDs for the Users who Voted.                                            |
+
 
 
 ---
