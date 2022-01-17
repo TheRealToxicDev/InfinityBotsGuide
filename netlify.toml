@@ -3,18 +3,18 @@
   publish = "public/"
 
 # Redirect default Netlify subdomain to primary domain
-[[redirects]]
-  from = "https://trusting-leavitt-f25c74.netlify.com/*"
-  to = "https://docs.botlist.site/:splat"
-  status = 301
-  force = true
+# [[redirects]]
+#  from = "https://trusting-leavitt-f25c74.netlify.com/*"
+#  to = "https://docs.botlist.site/:splat"
+#  status = 301
+#  force = true
 
 # Redirect default Netlify subdomain to primary domain
-[[redirects]]
-  from = "http://docs.botlist.site/:splat"
-  to = "https://docs.botlist.site/:splat"
-  status = 301
-  force = true
+#[[redirects]]
+#  from = "http://docs.botlist.site/:splat"
+#  to = "https://docs.botlist.site/:splat"
+#  status = 301
+#  force = true
 
 [[headers]]
   for = "/*"
